@@ -39,6 +39,7 @@
     <FaceOff data-aos="fade-up" data-aos-duration="1500" />
     <LookForward data-aos="fade-up" data-aos-duration="1500" />
     <Newsletter />
+    <CTApatreon />
     <Footer />
   </section>
 </template>
@@ -51,6 +52,7 @@ import Newsletter from "@/components/Newsletter.vue";
 import FaceOff from "@/components/FaceOff.vue";
 import LookForward from "@/components/LookForward.vue";
 import News from "@/components/News.vue";
+import CTApatreon from "@/components/CTApatreon.vue";
 export default {
   components: {
     Navbar,
@@ -59,6 +61,7 @@ export default {
     News,
     FaceOff,
     LookForward,
+    CTApatreon,
   },
   created() {
     AOS.init();

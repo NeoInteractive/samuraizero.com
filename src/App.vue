@@ -40,7 +40,6 @@ aside.unsupported {
   &:hover {
     background: #ac000e;
     border-color: #972730 !important;
-    font-weight: bold;
     color: #e9e2ca;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -56,7 +55,7 @@ aside.unsupported {
     }
   }
   &.white {
-    background: rgba(255, 255, 255, 0.582);
+    background: rgba(255, 255, 255, 0.6);
     border: 1px solid #e9e2ca;
     &:hover {
       background: #f96854;

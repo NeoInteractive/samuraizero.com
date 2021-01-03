@@ -91,10 +91,10 @@ export default {
 
 <style lang="scss" scoped>
 footer {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   border-bottom: 1px solid #e9e2ca;
   font-family: hypatia-sans-pro, sans-serif;
-  margin-top: 5rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -129,7 +129,7 @@ ul {
 }
 .content {
   padding-top: 50px !important;
-  background: #030101;
+  background-color: rgb(15, 15, 15);
   color: #e9e2ca;
   font-family: hypatia-sans-pro, sans-serif;
   font-weight: 300;

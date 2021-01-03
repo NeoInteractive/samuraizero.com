@@ -50,7 +50,6 @@ export default {};
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  margin-bottom: 10rem;
   .column {
     height: 1000px;
   }

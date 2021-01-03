@@ -100,7 +100,7 @@ export default {};
 
 #slider label {
   margin: auto;
-  width: 60%;
+  width: 30rem;
   height: 100%;
   border-radius: 4px;
   position: absolute;

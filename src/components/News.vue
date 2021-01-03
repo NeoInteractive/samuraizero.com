@@ -1,0 +1,128 @@
+<template>
+  <section class="description" data-aos="fade-up" data-aos-duration="750">
+    <div class="container">
+      <div class="columns is-multiline">
+        <div class="column is-12 va">
+          <h1 class="news-title">News & Updates</h1>
+        </div>
+        <div v-for="item in info" :key="item.id" class="column is-4 va">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-16by9">
+                <img :src="item.feature_image" alt="Placeholder image" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <p class="title is-4 news-title-card">{{ item.title }}</p>
+              </div>
+              <div class="content">
+                <p>{{ item.custom_excerpt }}</p>
+              </div>
+              <a :href="item.url" class="button zero-btn is-fullwidth"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+import axios from "axios";
+export default {
+  name: "News",
+  components: {},
+  data() {
+    return {
+      info: null,
+    };
+  },
+  mounted() {
+    axios
+      .get(
+        "https://news.samuraizero.com/ghost/api/v2/content/posts/?key=e13efcce8f892a9cccaa14c7ae&limit=3"
+      )
+      .then((response) => (this.info = response.data.posts));
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+@media only screen and (max-width: 62.5em) {
+  section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem !important;
+    .news-title {
+      font-family: hypatia-sans-pro, sans-serif;
+      padding-top: 5rem;
+      padding-bottom: 2rem !important;
+      text-align: center;
+    }
+    .title {
+      font-family: hypatia-sans-pro, sans-serif;
+      font-size: 2.3rem;
+    }
+    .content {
+      font-family: hypatia-sans-pro, sans-serif;
+      font-size: 1.3rem !important;
+      padding-bottom: 2rem;
+    }
+    .card {
+      margin-bottom: 1rem;
+    }
+    button {
+      height: 4rem;
+      font-size: 1.4rem !important;
+    }
+  }
+}
+section {
+  background: radial-gradient(
+      70.52% 37.27% at 24.21% 47.47%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 51.1%,
+      #000000 99.74%
+    ),
+    url(../assets/dunes-night.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 800px;
+}
+
+.news-title {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  color: #e9e2ca;
+  font-family: hypatia-sans-pro, sans-serif;
+  text-align: center;
+}
+.card {
+  background: #000000;
+  border: 1px solid rgba(233, 226, 202, 0.4);
+  box-shadow: none;
+  color: #e9e2ca;
+  .title {
+    color: #e9e2ca;
+  }
+  .news-title-card {
+    font-weight: 400 !important;
+    font-family: hypatia-sans-pro, sans-serif;
+    letter-spacing: 0.1rem;
+    color: #e9e2ca;
+  }
+  .content {
+    font-family: hypatia-sans-pro, sans-serif;
+    font-size: 1.1rem;
+    color: #faf7eb;
+  }
+}
+</style>

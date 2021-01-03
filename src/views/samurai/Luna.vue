@@ -6,8 +6,8 @@
       </div>
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title">Ryder</h1>
-          <h2 class="subtitle">The Mysterious Machina</h2>
+          <h1 class="title">Luna</h1>
+          <h2 class="subtitle">The Radiant Joy</h2>
         </div>
       </div>
     </section>
@@ -17,7 +17,7 @@
           <div class="columns is-multiline">
             <div class="column is-6" style="text-align: right;">
               <img
-                src="../../assets/img/samurai/samurai_2_ryder.png"
+                src="../../assets/img/samurai/samurai_3_luna.png"
                 width="400px"
                 alt
               />
@@ -25,44 +25,58 @@
             <div class="column is-6">
               <h3>About</h3>
               <p class="body">
-                <strong>Alias:</strong> Ryder
+                <strong>Age:</strong> 21
                 <br />
-                <strong>Real Name:</strong> Hiro Kashikoi
+                <strong>Alias:</strong> Luna
                 <br />
-                <strong>Spirit Partner:</strong> Toshihiro
+                <strong>Real Name:</strong> Luna Alcmene
                 <br />
-                <strong>Affiliation:</strong> Kashikoi Clan
+                <strong>Spirit Partner:</strong> Leporin
+                <span class="tag is-primary">
+                  View in World Codex
+                  <i
+                    style="margin-left: .6rem"
+                    class="fas fa-external-link"
+                  ></i>
+                </span>
+                <br />
+                <strong>Affiliation:</strong> Alcmene Clan
+                <span class="tag is-primary">
+                  View in World Codex
+                  <i
+                    style="margin-left: .6rem"
+                    class="fas fa-external-link"
+                  ></i>
+                </span>
               </p>
+              <br /><br />
+              <q>
+                Even in the darkness of night, the moon is always shining.
+              </q>
               <h3>HISTORY</h3>
               <p class="body">
-                A mysterious entity in the world of Edo, Ryder moves like a bolt
-                of lightning from province to province, city to city, attending
-                to an agenda only he knows.
-                <br />
-                <br />The figure Ryder appeared relatively quickly after the New
-                Dawn, as if heralding the Great Leap Forward for the rest of the
-                world. His body appears to be covered in metal from head to toe,
-                replacing muscle and sinew with steel and wire.
-                <br />
-                <br />He does not interact with common people very often, and
-                most people find his words often incomprehensible, almost
-                altering between a scholar and a knight. Yet despite this, many
-                are not exactly sure what he is. He appears to be a machina, a
-                lifeless doll made from steel, but his words and actions feel
-                too emotive to be lifeless. Yet he cannot simply be a man in a
-                suit of armor, as certain details like his neck and head size
-                seem to preclude this.
-                <br />
-                <br />Among the whispers about him, many see him leaving the
-                area of land belonging to the prestigious Kashikoi Clan. However
-                even if he is a product of theirs, he does not seem to act in
-                their interest, unconcerned with their affairs.
-                <br />
-                <br />Currently he seems fascinated with Edo’s scattered
-                Samurai, Wraith in particular, and seeks them out to learn what
-                he can from them. Whether this knowledge is for some noble
-                purpose, nefarious ends, or simply for its own sake, the machina
-                lets nothing be certain.
+                Luna is the inexperienced but earnest head of the illustrious
+                Alcmene Clan. Despite the troubles that plague her, she is a
+                firm believer that things will improve so long as she keeps hope
+                alive. To her, if a leader can assure their people with a smile,
+                then they can inspire them to be better. <br /><br />
+                Born the second child of the former Alcmene Head, Luna was never
+                expected to lead, yet she did not harbor resentment of this
+                fact. On the contrary, she was excited to have her older brother
+                lead their clan into a bright future. But on the night he was
+                supposed to rise to the occasion, disaster struck, and Luna's
+                brother was possessed by a Demon, maiming his sister before
+                escaping into the night. <br /><br />
+                Now suddenly thrusting into a role she never thought she would
+                have, Luna does her best to lead her clan into the bright future
+                she idealizes. However she never loses hope that someday she'll
+                find and save her beloved brother from his terrible fate, and
+                she can give him back the leadership she is forced to contend
+                with. <br /><br />
+                During a conflict, Luna functions as a close to mid-range
+                support, providing healing to her teammates while also dealing
+                respectable damage. In the right hands, Luna can turn the tide
+                of a fight, grasping a sudden victory from the jowls of defeat.
               </p>
             </div>
           </div>
@@ -73,54 +87,41 @@
               <div class="column is-4 va">
                 <div>
                   <h2 class="subtitle">Skill Art</h2>
-                  <h1 class="title">Flash Step</h1>
+                  <h1 class="title">Moonlight</h1>
                   <p>
-                    Ryder moves so fast that he send out afterimages of himself
-                    to damage enemies.
+                    Luna fires luminous projectiles to either debilitate her
+                    opponents or heal her allies.
                   </p>
                 </div>
               </div>
               <div class="column is-4 va">
                 <div>
                   <h2 class="subtitle">Skill Art</h2>
-                  <h1 class="title">Speed Shift</h1>
+                  <h1 class="title">Lunar Rift</h1>
                   <p>
-                    Ryder overwhelms his opponent with a speedy chain of
-                    strikes, ending with various forms of crowd control to delay
-                    their counter attack.
+                    Luna creates an area filled with light that can potentially
+                    damage enemies and heal allies.
                   </p>
                 </div>
               </div>
               <div class="column is-4 va">
                 <div>
                   <h2 class="subtitle">Heroic Art</h2>
-                  <h1 class="title">Stellar Conclusion</h1>
+                  <h1 class="title">Lunar Eclipse</h1>
                   <p>
-                    Ryder pushes his speed to its absolute limit, annihilating
-                    his target(s) before they have a chance to percieve him.
+                    Luna calls upon the full power of the moon to either greatly
+                    enhance her attacks or cover a large area of the battlefield
+                    in radiance.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div id="this-is">
-          <div class="video-wrapper">
-            <div class="container">
-              <video
-                width="100%"
-                controls
-                poster="../../assets/img/ryder/thisis.jpg"
-              >
-                <source :src="thisIs" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
       </div>
     </main>
     <Newsletter />
+    <CTApatreon />
     <Footer />
   </div>
 </template>
@@ -128,12 +129,14 @@
 import Footer from "@/components/Footer.vue";
 import Navbar from "@/components/Navbar.vue";
 import Newsletter from "@/components/Newsletter.vue";
+import CTApatreon from "@/components/CTApatreon.vue";
 export default {
   name: "Wraith",
   components: {
     Navbar,
     Footer,
     Newsletter,
+    CTApatreon,
   },
   data() {
     return {
@@ -182,7 +185,8 @@ export default {
     font-size: 3rem;
     letter-spacing: 0.1rem;
   }
-  .body {
+  .body,
+  q {
     font-family: hypatia-sans-pro, sans-serif;
     font-size: 1.3rem;
     color: #faf7eb;

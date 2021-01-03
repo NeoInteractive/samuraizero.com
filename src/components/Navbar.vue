@@ -29,15 +29,16 @@
         <router-link
           to="/samurai"
           class="navbar-item"
-          :class="{ 'is-active': currentPage == 'Samurai' }"
-          >Gameplay Features</router-link
+          :class="{ 'is-active': currentPage == 'Gameplay' }"
+          >Gameplay</router-link
         >
         <router-link
-          to="/gauntlet"
+          to="/samurai"
           class="navbar-item"
-          :class="{ 'is-active': currentPage == 'Gauntlet' }"
+          :class="{ 'is-active': currentPage == 'Samurai' }"
           >Samurai</router-link
         >
+        <a href="#" class="navbar-item">World</a>
         <a href="https://news.samuraizero.com/" class="navbar-item">News</a>
         <a href="https://merch.samuraizero.com/" class="navbar-item">Merch</a>
       </div>
@@ -85,7 +86,6 @@ $text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
     font-size: 1rem;
     &.is-active {
-      font-weight: bold;
       color: #ff4857;
     }
     &:hover {

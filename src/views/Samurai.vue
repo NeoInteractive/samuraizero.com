@@ -11,6 +11,76 @@
       </div>
     </section>
     <main>
+      <div class="samurai">
+        <div class="container">
+          <div class="lineup columns is-multiline">
+            <div class="column is-12">
+              <p class="subtitle has-text-centered">
+                View the list of Samurai featured in Samurai Zero below
+              </p>
+              <br />
+              <br />
+            </div>
+            <div class="column profile is-3 has-text-centered">
+              <div class="wraith"></div>
+              <nav class="level">
+                <div class="level-left">
+                  <div class="level-item">
+                    <h1 class="title">Wraith</h1>
+                  </div>
+                </div>
+                <div class="level-right">
+                  <p class="level-item">
+                    <router-link to="/samurai/wraith" class="button zero-btn"
+                      >View Samurai</router-link
+                    >
+                  </p>
+                </div>
+              </nav>
+            </div>
+            <div class="column profile is-3 has-text-centered">
+              <div class="ryder"></div>
+              <nav class="level">
+                <div class="level-left">
+                  <div class="level-item">
+                    <h1 class="title">Ryder</h1>
+                  </div>
+                </div>
+                <div class="level-right">
+                  <p class="level-item">
+                    <router-link :to="{ name: 'Ryder' }" class="button zero-btn"
+                      >View Samurai</router-link
+                    >
+                  </p>
+                </div>
+              </nav>
+            </div>
+            <div class="column profile is-3 has-text-centered">
+              <div class="luna"></div>
+              <nav class="level">
+                <div class="level-left">
+                  <div class="level-item">
+                    <h1 class="title">Luna</h1>
+                  </div>
+                </div>
+                <div class="level-right">
+                  <p class="level-item">
+                    <router-link :to="{ name: 'Luna' }" class="button zero-btn"
+                      >View Samurai</router-link
+                    >
+                  </p>
+                </div>
+              </nav>
+            </div>
+            <div class="column profile is-12 has-text-centered va">
+              <p class="">
+                <br />
+                More will be revealed soon as we continue development
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="intro">
         <div class="container">
           <div class="columns is-multiline">
@@ -49,92 +119,9 @@
           </div>
         </div>
       </div>
-      <div class="samurai">
-        <div class="container">
-          <div class="lineup columns is-multiline">
-            <div class="column is-12">
-              <h1 class="title has-text-centered">
-                Meet your
-                <span>Samurai</span>
-              </h1>
-              <p class="subtitle has-text-centered">
-                View the list of Samurai featured in Samurai Zero below. More
-                Samurai will be revealed as time goes on.
-              </p>
-              <br />
-              <br />
-            </div>
-            <div class="column profile is-4 has-text-centered">
-              <div class="wraith"></div>
-              <nav class="level">
-                <div class="level-left">
-                  <div class="level-item">
-                    <h1 class="title">Wraith</h1>
-                  </div>
-                </div>
-                <div class="level-right">
-                  <p class="level-item">
-                    <router-link to="/samurai/wraith" class="button zero-btn"
-                      >View Samurai</router-link
-                    >
-                  </p>
-                </div>
-              </nav>
-            </div>
-            <div class="column profile is-4 has-text-centered">
-              <div class="ryder"></div>
-              <nav class="level">
-                <div class="level-left">
-                  <div class="level-item">
-                    <h1 class="title">Ryder</h1>
-                  </div>
-                </div>
-                <div class="level-right">
-                  <p class="level-item">
-                    <router-link :to="{ name: 'Ryder' }" class="button zero-btn"
-                      >View Samurai</router-link
-                    >
-                  </p>
-                </div>
-              </nav>
-            </div>
-            <div class="column profile is-4 has-text-centered">
-              <div class="luna"></div>
-              <nav class="level">
-                <div class="level-left">
-                  <div class="level-item">
-                    <h1 class="title">Luna</h1>
-                  </div>
-                </div>
-                <div class="level-right">
-                  <p class="level-item">
-                    <router-link :to="{ name: 'Luna' }" class="button zero-btn"
-                      >View Samurai</router-link
-                    >
-                  </p>
-                </div>
-              </nav>
-            </div>
-            <div class="column profile is-4 has-text-centered">
-              <div class="unknown"></div>
-              <nav class="level">
-                <div class="level-left">
-                  <div class="level-item">
-                    <h1 class="title">TBA</h1>
-                  </div>
-                </div>
-                <div class="level-right">
-                  <p class="level-item">
-                    <a disabled class="button zero-btn">View Samurai</a>
-                  </p>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
     </main>
     <Newsletter />
+    <CTApatreon />
     <Footer />
   </div>
 </template>
@@ -142,41 +129,59 @@
 import Footer from "@/components/Footer.vue";
 import Navbar from "@/components/Navbar.vue";
 import Newsletter from "@/components/Newsletter.vue";
+import CTApatreon from "@/components/CTApatreon.vue";
 export default {
   name: "Thankyou",
   components: {
     Navbar,
     Footer,
     Newsletter,
+    CTApatreon,
   },
 };
 </script>
 <style lang="scss" scoped>
 $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
 .hero {
-  background-image: linear-gradient(150deg, #030101d3, #1f1f1fda),
-    url("../assets/img/hero-texture.jpg") !important;
+  background: radial-gradient(
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.472) 51.1%,
+      #000000 99.74%
+    ),
+    url(../assets/dunes-night.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  font-family: Hypatia Sans Pro, sans-serif !important;
   .title {
-    color: white;
+    font-family: Hypatia Sans Pro, sans-serif !important;
+    font-weight: 700;
     font-size: 3rem;
+    color: #e9e2ca;
   }
 }
 .intro {
-  background: linear-gradient(150deg, #030101, #1b1b1b);
-  padding-top: 10rem;
+  background: radial-gradient(
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.472) 51.1%,
+      #000000 99.74%
+    ),
+    url(../assets/dunes-night.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 10rem;
+  font-family: Hypatia Sans Pro, sans-serif !important;
   .body {
-    color: rgb(240, 240, 240);
+    color: #e9e2ca;
     line-height: 2.5rem;
     letter-spacing: 0.1rem;
     font-weight: 400;
   }
 }
 .samurai {
+  font-family: Hypatia Sans Pro, sans-serif !important;
   background: #030101;
   padding-top: 10rem;
   padding-bottom: 10rem;

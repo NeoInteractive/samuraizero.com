@@ -47,6 +47,12 @@ const router = new Router({
       component: () =>
         import(/* webpackChunkName: "Ryder" */ "@/views/samurai/Ryder.vue"),
     },
+    {
+      path: "/samurai/luna",
+      name: "Luna",
+      component: () =>
+        import(/* webpackChunkName: "Luna" */ "@/views/samurai/Luna.vue"),
+    },
   ],
   scrollBehavior() {
     return { x: 0, y: 0 };

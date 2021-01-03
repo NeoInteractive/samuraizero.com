@@ -2,14 +2,15 @@
   <section class="newsletter">
     <div class="container">
       <div class="columns">
-        <div class="column is-7 va">
+        <div class="column is-5 va">
+          <h3 class="jp-subheading" lang="jp">更新情報を受け取る</h3>
           <h2 class="title">Samurai Zero Newsletter</h2>
           <p>
             Stay up to date with the latest development updates by signing up
             for the Samurai Zero Development Newsletter.
           </p>
         </div>
-        <div class="column is-5 va">
+        <div class="column is-7 input-fields va">
           <div @keydown.enter="submit">
             <br />
             <div class="field has-addons">
@@ -88,27 +89,40 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.newsletter {
+  background: #000000;
+  font-family: hypatia-sans-pro, sans-serif;
+  border-top: 1px solid #e9e2ca;
+  border-bottom: 1px solid #e9e2ca;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
 h2.title {
   color: #e9e2ca;
-  font-size: 2.1rem;
+  font-size: 3rem;
   letter-spacing: 0.15rem;
-  font-weight: 400;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-bottom: 0.75rem;
+  border-bottom: 5px solid #faf7eb;
 }
 p {
   color: #faf7eb;
   font-size: 1.3rem;
 }
-section {
-  background: #000000;
-  padding: 50px;
-  color: #141414;
-  font-family: hypatia-sans-pro, sans-serif;
-  border-top: 1px solid #e9e2ca;
-  border-bottom: 1px solid #e9e2ca;
+.jp-subheading {
+  color: #ff2c3c;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: source-han-sans-japanese, sans-serif;
+  margin-bottom: 0.75rem;
 }
 .signup {
   border-color: #faf7eb;
   background: #faf7eb;
+}
+.input-fields {
+  padding-left: 2rem;
 }
 input {
   background: transparent;
@@ -120,5 +134,10 @@ input {
   &::placeholder {
     color: #faf7eb;
   }
+}
+.va {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 </style>

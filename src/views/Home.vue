@@ -11,7 +11,7 @@
               src="../assets/img/sz-logo-main.png"
               width="428px"
               style="margin-left: .2rem"
-            /><br />
+            /><br /><br />
             <router-link
               to="/samurai"
               id="zero-btn"
@@ -87,30 +87,6 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
   .body {
     display: flex;
     max-width: 2000px;
-    .silentbox-single {
-      text-decoration: none !important;
-    }
-    .trailer-callout {
-      padding-left: 15rem;
-      margin-top: 3.5rem;
-      font-weight: bold;
-      color: #737b86;
-      letter-spacing: 0.1rem;
-      font-size: 1.2rem;
-      text-transform: uppercase;
-      p,
-      a {
-        transform: rotate(270deg);
-        color: ghostwhite;
-        text-shadow: $text-shadow;
-        svg {
-          transform: translateY(14px) rotate(90deg);
-          padding-bottom: 10px;
-          height: 50px;
-          transform-origin: center;
-        }
-      }
-    }
     .titles {
       padding-right: 15rem;
       text-align: left;

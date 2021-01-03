@@ -2,8 +2,9 @@
   <section class="description" data-aos="fade-up" data-aos-duration="750">
     <div class="container">
       <div class="columns is-multiline">
-        <div class="column is-12 va">
-          <h1 class="news-title">News & Updates</h1>
+        <div class="column is-12 va has-text-centered">
+          <h3 class="jp-subheading" lang="jp">最新ニュース</h3>
+          <h1 class="news-title">Latest News</h1>
         </div>
         <div v-for="item in info" :key="item.id" class="column is-4 va">
           <div class="card">
@@ -19,9 +20,9 @@
               <div class="content">
                 <p>{{ item.custom_excerpt }}</p>
               </div>
-              <a :href="item.url" class="button zero-btn is-fullwidth"
-                >Read More</a
-              >
+              <a :href="item.url" class="button zero-btn is-fullwidth">
+                Read More
+              </a>
             </div>
           </div>
         </div>
@@ -60,6 +61,7 @@ export default {
       font-family: hypatia-sans-pro, sans-serif;
       padding-top: 5rem;
       padding-bottom: 2rem !important;
+      font-size: 3rem;
       text-align: center;
     }
     .title {
@@ -96,13 +98,30 @@ section {
   justify-content: center;
   min-height: 800px;
 }
-
+.card-image img {
+  &:hover:after {
+    border-color: #f5f5f5 !important;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+  }
+}
 .news-title {
   font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
   padding-bottom: 1rem;
+  letter-spacing: 2px;
   color: #e9e2ca;
   font-family: hypatia-sans-pro, sans-serif;
-  text-align: center;
+}
+.jp-subheading {
+  color: #ff2c3c;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: source-han-sans-japanese, sans-serif;
+  margin-bottom: 0.75rem;
 }
 .card {
   background: #000000;

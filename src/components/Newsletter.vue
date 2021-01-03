@@ -10,8 +10,8 @@
             for the Samurai Zero Development Newsletter.
           </p>
         </div>
-        <div class="column is-5 input-fields va">
-          <div @keydown.enter="submit">
+        <div class="column is-5 is-offset-2 input-fields va">
+          <div @keydown.enter="submit" style="text-align: right">
             <br />
             <div class="field has-addons">
               <div class="control is-expanded">

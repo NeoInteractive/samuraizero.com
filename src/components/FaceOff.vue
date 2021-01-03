@@ -39,7 +39,6 @@ export default {};
 
 <style lang="scss" scoped>
 .faceOff {
-  height: 1000px;
   background: radial-gradient(
       136.03% 54.57% at 50% 48.04%,
       rgba(255, 255, 255, 0) 0%,
@@ -50,6 +49,8 @@ export default {};
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
   .column {
     height: 1000px;
   }

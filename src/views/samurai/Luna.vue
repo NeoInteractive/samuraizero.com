@@ -15,6 +15,15 @@
       <div class="intro">
         <div id="about" class="container">
           <div class="columns is-multiline">
+            <div class="column is-12 has-text-centered">
+              <button
+                @click="$router.go(-1)"
+                class="button zero-btn white outlined"
+              >
+                Back to All Samurai
+              </button>
+              <br /><br /><br /><br />
+            </div>
             <div class="column is-6" style="text-align: right;">
               <img
                 src="../../assets/img/samurai/samurai_3_luna.png"
@@ -139,9 +148,7 @@ export default {
     CTApatreon,
   },
   data() {
-    return {
-      thisIs: "https://szero.b-cdn.net/this-is/Ryder.mp4",
-    };
+    return {};
   },
 };
 </script>
@@ -153,7 +160,7 @@ export default {
 }
 .hero {
   background-image: linear-gradient(150deg, #030101d3, #1f1f1fda),
-    url("../../assets/img/ryder/ryder.jpg") !important;
+    url("../../assets/img/luna/luna.jpg") !important;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;

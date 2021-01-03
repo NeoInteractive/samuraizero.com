@@ -72,6 +72,15 @@
                 disappearing just as fast.
               </p>
             </div>
+            <div class="column is-12 has-text-centered">
+              <br /><br /><br /><br />
+              <button
+                @click="$router.replace({ path: '/samurai' })"
+                class="button zero-btn white outlined"
+              >
+                Back to All Samurai
+              </button>
+            </div>
           </div>
         </div>
         <div id="arts" class>

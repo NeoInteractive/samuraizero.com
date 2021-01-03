@@ -1,9 +1,16 @@
 <template>
   <div id="app">
-    <router-view />
+    <TransitionPage><router-view /></TransitionPage>
   </div>
 </template>
-
+<script>
+import TransitionPage from "@/components/global/TransitionPage";
+export default {
+  components: {
+    TransitionPage,
+  },
+};
+</script>
 <style lang="scss">
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";
@@ -66,7 +73,6 @@ aside.unsupported {
     }
   }
 }
-
 // Import Bulma's core
 // Set your colors
 $primary: #ac000e;

@@ -1,5 +1,5 @@
 <template>
-  <section class="faceOff">
+  <section class="keyFeatures">
     <div class="container">
       <div class="columns">
         <div class="column  va ">
@@ -50,7 +50,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.faceOff {
+.keyFeatures {
   background: radial-gradient(
       136.03% 54.57% at 50% 48.04%,
       rgba(255, 255, 255, 0) 0%,
@@ -61,8 +61,8 @@ export default {};
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  padding-bottom: 15rem;
-  padding-top: 15rem;
+  padding-bottom: 25rem;
+  padding-top: 25rem;
 }
 .va {
   display: flex;

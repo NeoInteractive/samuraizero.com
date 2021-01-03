@@ -36,10 +36,11 @@
       </div>
     </section>
     <News />
+    <KeyFeatures />
+    <ChooseSamurai data-aos="fade-up" data-aos-duration="1500" />
     <FaceOff data-aos="fade-up" data-aos-duration="1500" />
-    <LookForward data-aos="fade-up" data-aos-duration="1500" />
-    <Newsletter />
     <CTApatreon />
+    <Newsletter />
     <Footer />
   </section>
 </template>
@@ -50,7 +51,8 @@ import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import Newsletter from "@/components/Newsletter.vue";
 import FaceOff from "@/components/FaceOff.vue";
-import LookForward from "@/components/LookForward.vue";
+import ChooseSamurai from "@/components/ChooseSamurai.vue";
+import KeyFeatures from "@/components/KeyFeatures.vue";
 import News from "@/components/News.vue";
 import CTApatreon from "@/components/CTApatreon.vue";
 export default {
@@ -60,8 +62,9 @@ export default {
     Newsletter,
     News,
     FaceOff,
-    LookForward,
+    ChooseSamurai,
     CTApatreon,
+    KeyFeatures,
   },
   created() {
     AOS.init();

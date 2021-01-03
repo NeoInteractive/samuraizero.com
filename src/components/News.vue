@@ -82,9 +82,8 @@ export default {
 }
 section {
   background: radial-gradient(
-      70.52% 37.27% at 24.21% 47.47%,
       rgba(255, 255, 255, 0) 0%,
-      rgba(0, 0, 0, 0) 51.1%,
+      rgba(0, 0, 0, 0.472) 51.1%,
       #000000 99.74%
     ),
     url(../assets/dunes-night.jpg);

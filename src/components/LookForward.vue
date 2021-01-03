@@ -6,7 +6,7 @@
         <div class="column is-8 right va">
           <h3 class="jp-subheading" lang="jp">あなたの過去に目を向ける</h3>
 
-          <h1 class="title">To look forward we must return to zero</h1>
+          <h1 class="title">Choose your samurai</h1>
           <div class="content">
             <p>
               Perfect your skills in a team-focused arena fighting game;
@@ -37,12 +37,13 @@ export default {};
       136.03% 54.57% at 50% 48.04%,
       rgba(255, 255, 255, 0) 0%,
       rgba(0, 0, 0, 0) 60.63%,
-      #000000 95%
+      #000000 80%
     ),
     url(../assets/img/ryder-gauntlet.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+  margin-bottom: 5rem;
   .column {
     height: 1000px;
   }

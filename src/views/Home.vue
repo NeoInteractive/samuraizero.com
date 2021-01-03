@@ -77,14 +77,13 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
       189.96% 61.18% at 50% 38.82%,
       rgba(23, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.80319) 50.22%,
-      #000000 100%
+      #000000 90%
     ),
     url("../assets/img/Ryder-Hero-Flower-Alt.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: saturate(125%);
-  margin-bottom: 5rem;
   .body {
     display: flex;
     max-width: 2000px;

@@ -72,10 +72,8 @@ export default {
 
 <style lang="scss" scoped>
 footer {
-  border-bottom: 5px solid grey;
-  border-color: #f96854;
-  border-image-slice: 1;
-  border-width: 2px;
+  background-color: black;
+  border-bottom: 1px solid #e9e2ca;
   font-family: hypatia-sans-pro, sans-serif;
 }
 

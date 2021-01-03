@@ -91,30 +91,29 @@ export default {
 h2.title {
   color: #e9e2ca;
   font-size: 2.1rem;
-  font-family: hypatia-sans-pro, sans-serif;
   letter-spacing: 0.15rem;
   font-weight: 400;
 }
 p {
   color: #faf7eb;
   font-size: 1.3rem;
-  font-family: hypatia-sans-pro, sans-serif;
 }
 section {
-  background: #131313;
+  background: #000000;
   padding: 50px;
   color: #141414;
   font-family: hypatia-sans-pro, sans-serif;
+  border-top: 1px solid #e9e2ca;
+  border-bottom: 1px solid #e9e2ca;
 }
 .signup {
   border-color: #faf7eb;
   background: #faf7eb;
-  font-family: hypatia-sans-pro, sans-serif;
 }
 input {
   background: transparent;
   border: transparent;
-  border-bottom: 1px solid #faf7eb;
+  border-bottom: 1px solid #e9e2ca;
   border-radius: 0;
   box-shadow: none;
   color: #e9e2ca;

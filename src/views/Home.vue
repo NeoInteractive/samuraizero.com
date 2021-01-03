@@ -37,64 +37,6 @@
     </section>
     <FaceOff data-aos="fade-up" data-aos-duration="1500" />
     <LookForward data-aos="fade-up" data-aos-duration="1500" />
-    <section id="intro" data-aos="fade-up" data-aos-duration="1500">
-      <div class="container">
-        <div class="columns is-multiline">
-          <div class="column is-4 ">
-            <div class="intro-container">
-              <br /><br />
-              <h1 class="title intro-item-title">Art of the Samurai</h1>
-              <p class="intro-item-content">
-                Perfect your skills in a team-focused arena fighter, mastering
-                the various skills and strengths of powerful Samurai tailored to
-                your own playstyle.
-              </p>
-            </div>
-          </div>
-          <div class="column is-4 ">
-            <div class="intro-container">
-              <br /><br />
-              <h1 class="title intro-item-title">Global Preacher</h1>
-              <p class="intro-item-content">
-                Discover everything the world of Edo has to offer. From ancient
-                mystical ruins to technologically marvelous capitals, become
-                enraptured in the vast history of conflict that has shaped the
-                world.
-              </p>
-            </div>
-          </div>
-          <div class="column is-4 ">
-            <div class="intro-container">
-              <br /><br />
-              <h1 class="title intro-item-title">Looking For a Hero</h1>
-              <p class="intro-item-content">
-                More than swordsmanship and ancient powers, the Samurai have
-                conflicts both deeply personal and with the state of the world.
-                Become invested in an eclectic cast and witness the journeys
-                they take to change both themselves and the world of Edo.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="trailer">
-      <div class="container">
-        <div class="section-title-wrapper has-text-centered">
-          <h1 class="title section-title">The World of Edo</h1>
-          <h2 class="subtitle section-subtitle">
-            Discover the events leading up to Samurai Zero.
-          </h2>
-          <hr />
-          <center>
-            <img
-              src="../assets/img/wraith_trailer_thumbnail.jpg"
-              width="720px"
-            />
-          </center>
-        </div>
-      </div>
-    </section>
     <News />
     <Newsletter />
     <Footer />
@@ -129,11 +71,12 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
 .app {
   background: #000000;
 }
+// hero video -> https://neointeractive.b-cdn.net/web/heroteaser-minres.mp4
 .hero {
   background: radial-gradient(
       189.96% 61.18% at 50% 38.82%,
       rgba(23, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.80319) 53.22%,
+      rgba(0, 0, 0, 0.80319) 50.22%,
       #000000 100%
     ),
     url("../assets/img/Ryder-Hero-Flower-Alt.jpg");

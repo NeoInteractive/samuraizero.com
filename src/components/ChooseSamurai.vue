@@ -2,7 +2,11 @@
   <section class="faceOff">
     <div class="container">
       <div class="columns">
-        <div class="column is-4  "></div>
+        <div class="column is-4 va swing">
+          <center>
+            <img class=" banner" src="@/assets/img/ochi_banner.png" alt="" />
+          </center>
+        </div>
         <div class="column is-8 right va">
           <h3 class="jp-subheading" lang="jp">あなたの過去に目を向ける</h3>
 
@@ -48,6 +52,10 @@ export default {};
     height: 1000px;
   }
 }
+.banner {
+  width: 250px;
+  height: auto;
+}
 .va {
   display: flex;
   flex-direction: column;
@@ -85,6 +93,23 @@ export default {};
       font-size: 1.4rem;
       color: #faf7eb;
     }
+  }
+}
+.swing {
+  animation: swing ease-in-out 4s infinite alternate;
+  transform-origin: center -20px;
+  float: left;
+}
+.swing img {
+  display: block;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0.75deg);
+  }
+  100% {
+    transform: rotate(-0.75deg);
   }
 }
 </style>

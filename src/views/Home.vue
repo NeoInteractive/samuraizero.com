@@ -35,11 +35,11 @@
         </div>
       </div>
     </section>
-    <News />
-    <KeyFeatures />
+    <News data-aos="fade-up" data-aos-duration="1500" />
+    <KeyFeatures data-aos="fade-up" data-aos-duration="1500" />
     <ChooseSamurai data-aos="fade-up" data-aos-duration="1500" />
     <FaceOff data-aos="fade-up" data-aos-duration="1500" />
-    <CTApatreon />
+    <CTApatreon data-aos="fade-up" data-aos-duration="1500" />
     <Newsletter />
     <Footer />
   </section>

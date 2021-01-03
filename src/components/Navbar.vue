@@ -44,12 +44,12 @@
       </div>
       <div id="burger" class="navbar-menu" :class="{ 'is-active': isOpen }">
         <div class="navbar-end">
-          <p class="navbar-item">
-            <button class="zero-btn white outlined button">Register</button>
-          </p>
-          <p class="navbar-item">
-            <button class="zero-btn button">Login</button>
-          </p>
+          <router-link to="/auth/register" class="navbar-item">
+            <a class="zero-btn white outlined button">Register</a>
+          </router-link>
+          <router-link to="/auth/login" class="navbar-item">
+            <a class="zero-btn button">Login</a>
+          </router-link>
         </div>
       </div>
     </div>

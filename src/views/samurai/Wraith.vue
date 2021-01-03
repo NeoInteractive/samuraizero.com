@@ -16,27 +16,60 @@
         <div id="about" class="container">
           <div class="columns is-multiline">
             <div class="column is-6" style="text-align: right;">
-              <img src="../../assets/img/samurai/samurai_1_wraith.png" width="400px" alt />
+              <img
+                src="../../assets/img/samurai/samurai_1_wraith.png"
+                width="400px"
+                alt
+              />
             </div>
             <div class="column is-6">
               <h3>About</h3>
               <p class="body">
+                <strong>Age:</strong> 29
+                <br />
                 <strong>Alias:</strong> Wraith
                 <br />
                 <strong>Real Name:</strong> Dyrus Simi
                 <br />
                 <strong>Spirit Partner:</strong> Chausiku (Shattered)
                 <br />
-                <strong>Affiliation:</strong> Simi Clan (Formerly), Silver Cloaks (Formerly)
+                <strong>Affiliation:</strong> Unaffiliated; Simi Clan
+                (Formerly), Silver Cloaks (Formerly)
               </p>
+              <br /><br />
+              <q>
+                Maybe a leopard can't change its spots...but it can hide them.
+              </q>
               <h3>HISTORY</h3>
               <p class="body">
-                A young man with no currently known allies, Wraith is the only surviving member of the once-proud Simi clan, and co-founder of the mercenary group known as the Silver Cloaks.
-                <br />
-                <br />Not much is publicly known about Wraith, with most of the information coming from whispers on the streets of less reputable locales. While the Silver Cloaks were riding high, he served as the group’s co-leader and liaison, taking all but the most heinous of jobs.
-                <br />
-                <br />On the day of the New Dawn, most of the group’s members were slaughtered by the Shinigami, with Wraith himself barely escaping. Now alone, his current motives are a mystery, and sightings of him have become even rarer. It appears he is gathering information for an unknown purpose. As proof of this claim, many have noticed that he now only takes jobs that one could describe as “informative.” In particular, he seems to have taken a great interest in archaeology and world history.
-                Alone, but undaunted, he proceeds with an unreadable expression, claiming that he will “set things right.”
+                Wraith is an ex-mercenary forged by both ancestral teachings
+                passed down to him and through withstanding a lifetime of
+                tragedy. The final survivor of the once proud Simi Clan, Dyrus
+                watched the mountains he called home burn to the ground by
+                Meridian forces when he was only a boy. However at Chausiku's
+                insistence, the orphaned boy decided to forsake revenge and
+                focus only on surviving so that he might carry the Simi legacy.
+                In time, Dyrus found a new family in the Silver Cloaks, a
+                mercenary group he co-founded with his friend Ren. The group
+                would undertake several different kinds of jobs, from
+                reconnaissance to guard duty, and even wetwork operations for
+                those that truly deserved it. Yet even this family would be
+                ripped away from him, as they were slain by the Shinigami during
+                the New Dawn, including the shattering of his Chausiku.
+                <br /><br />
+                Now without a family once again, and this time without even a
+                Spirit to guide him, Dyrus spends all his efforts gathering
+                information for an unknown purpose. He denies that what he seeks
+                is revenge, only commenting that "it's not what they would
+                want." The true goal of this samurai remains in the shadows.
+                <br /><br />
+                Specializing in speed and precision, he prefers to handle tasks
+                as quickly an efficiently as possible. While he has no qualms
+                with killing, he detests needless violence, so when he goes for
+                the throat, you can be assured that there was no other choice.
+                In battle, Wraith is most lethal at identifying and isolating
+                high-priority targets and ending them quickly, before
+                disappearing just as fast.
               </p>
             </div>
           </div>
@@ -48,32 +81,32 @@
                 <div>
                   <h2 class="subtitle">Skill Art</h2>
                   <h1 class="title">Night Hunter</h1>
-                  <p>Wraith forges situational tools which he can use to hunt his foes.</p>
+                  <p>
+                    Wraith forges situational tools which he can use to hunt his
+                    foes.
+                  </p>
                 </div>
               </div>
               <div class="column is-4 va">
                 <div>
                   <h2 class="subtitle">Skill Art</h2>
                   <h1 class="title">Fractured Cloak</h1>
-                  <p>Wraith’s suit allows him to cloak, making him more difficult to see.</p>
+                  <p>
+                    Wraith’s suit allows him to cloak, making him more difficult
+                    to see.
+                  </p>
                 </div>
               </div>
               <div class="column is-4 va">
                 <div>
                   <h2 class="subtitle">Heroic Art</h2>
                   <h1 class="title">Spirit Of The Night</h1>
-                  <p>Wraith calls upon the Night Mother, allowing him to manipulate the ethereal energy of the night.</p>
+                  <p>
+                    Wraith calls upon the Night Mother, allowing him to
+                    manipulate the ethereal energy of the night.
+                  </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div id="this-is">
-          <div class="video-wrapper">
-            <div class="container">
-              <video width="100%" controls poster="../../assets/img/ryder/thisis.jpg">
-                <source :src="thisIs" type="video/mp4" />Your browser does not support the video tag.
-              </video>
             </div>
           </div>
         </div>
@@ -92,13 +125,13 @@ export default {
   components: {
     Navbar,
     Footer,
-    Newsletter
+    Newsletter,
   },
   data() {
     return {
-      thisIs: "https://szero.b-cdn.net/this-is/Ryder.mp4"
+      thisIs: "https://szero.b-cdn.net/this-is/Ryder.mp4",
     };
-  }
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -134,7 +167,8 @@ export default {
     color: #ff2c3c;
     text-transform: uppercase;
   }
-  .body {
+  .body,
+  q {
     font-family: hypatia-sans-pro, sans-serif;
     font-size: 1.3rem;
     color: rgb(240, 240, 240);

@@ -10,7 +10,7 @@
             for the Samurai Zero Development Newsletter.
           </p>
         </div>
-        <div class="column is-7 input-fields va">
+        <div class="column is-5 input-fields va">
           <div @keydown.enter="submit">
             <br />
             <div class="field has-addons">
@@ -92,7 +92,6 @@ export default {
 .newsletter {
   background: #000000;
   font-family: hypatia-sans-pro, sans-serif;
-  border-top: 1px solid #e9e2ca;
   border-bottom: 1px solid #e9e2ca;
   padding-top: 10rem;
   padding-bottom: 10rem;

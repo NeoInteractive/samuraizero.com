@@ -22,10 +22,11 @@ aside.unsupported {
   justify-content: center;
 }
 #app {
-  font-family: "Hypatia Sans Pro" sans-serif;
+  font-family: hypatia-sans-pro, sans-serif;
   margin: 0;
   width: 100vw !important;
   height: 100vh !important;
+  background: black;
 }
 .button.zero-btn {
   font-family: hypatia-sans-pro, sans-serif;

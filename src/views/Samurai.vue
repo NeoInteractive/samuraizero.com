@@ -7,6 +7,7 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title">Age of the Samurai</h1>
+          <h2 class="subtitle">View the Samurai of Samurai Zero</h2>
         </div>
       </div>
     </section>
@@ -14,14 +15,7 @@
       <div class="samurai">
         <div class="container">
           <div class="lineup columns is-multiline">
-            <div class="column is-12">
-              <p class="subtitle has-text-centered">
-                View the list of Samurai featured in Samurai Zero below
-              </p>
-              <br />
-              <br />
-            </div>
-            <div class="column profile is-3 has-text-centered">
+            <div class="column profile is-4 has-text-centered">
               <div class="wraith"></div>
               <nav class="level">
                 <div class="level-left">
@@ -38,7 +32,7 @@
                 </div>
               </nav>
             </div>
-            <div class="column profile is-3 has-text-centered">
+            <div class="column profile is-4 has-text-centered">
               <div class="ryder"></div>
               <nav class="level">
                 <div class="level-left">
@@ -55,7 +49,7 @@
                 </div>
               </nav>
             </div>
-            <div class="column profile is-3 has-text-centered">
+            <div class="column profile is-4 has-text-centered">
               <div class="luna"></div>
               <nav class="level">
                 <div class="level-left">
@@ -65,9 +59,9 @@
                 </div>
                 <div class="level-right">
                   <p class="level-item">
-                    <router-link :to="{ name: 'Luna' }" class="button zero-btn"
-                      >View Samurai</router-link
-                    >
+                    <router-link :to="{ name: 'Luna' }" class="button zero-btn">
+                      View Samurai
+                    </router-link>
                   </p>
                 </div>
               </nav>
@@ -187,60 +181,80 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
   padding-bottom: 10rem;
   .title {
     font-size: 3rem;
-    color: white;
+    color: #faf7eb;
     span {
       color: #ff2c3c;
     }
   }
   p {
     font-size: 1.5rem;
-    color: white;
+    color: #faf7eb;
     font-family: hypatia-sans-pro, sans-serif;
   }
   .profile {
-    box-shadow: $shadow-large;
     transition: all 0.1s ease;
     &:hover {
       margin-top: -3px;
+      .wraith {
+        background: url("../assets/img/samurai/samurai_1_wraith.png"),
+          linear-gradient(rgba(53, 117, 47, 0.459), rgb(53, 117, 47));
+        height: 600px;
+        background-size: cover;
+        background-position: top;
+      }
+      .ryder {
+        background: url("../assets/img/samurai/samurai_2_ryder.png"),
+          linear-gradient(rgba(47, 97, 117, 0.459), rgb(47, 83, 117));
+        height: 600px;
+        background-size: cover;
+        background-position: top;
+      }
+      .luna {
+        background: url("../assets/img/samurai/samurai_3_luna.png"),
+          linear-gradient(rgba(105, 47, 117, 0.459), rgb(95, 47, 117));
+        height: 600px;
+        background-size: cover;
+        background-position: top;
+      }
     }
     .level {
-      color: white;
+      color: #faf7eb;
       margin-top: 0;
-      background: #1f1f1fda;
+      background: #000000da;
+      border: 1px solid rgba(233, 226, 202, 0.4);
+      border-top: transparent;
       padding: 1rem;
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
+      border-bottom-right-radius: 25px;
+      .zero-btn {
+        border-bottom-right-radius: 15px;
+      }
       .title {
         font-size: 2rem;
       }
     }
     .wraith {
-      border: 1px solid #1f1f1f;
+      border: 1px solid rgba(233, 226, 202, 0.4);
       height: 600px;
       background: url("../assets/img/samurai/samurai_1_wraith.png");
       background-size: cover;
       background-position: top;
+      border-top-left-radius: 25px;
     }
     .ryder {
-      border: 1px solid #1f1f1f;
+      border: 1px solid rgba(233, 226, 202, 0.4);
       height: 600px;
       background: url("../assets/img/samurai/samurai_2_ryder.png");
       background-size: cover;
       background-position: top;
+      border-top-left-radius: 25px;
     }
     .luna {
-      border: 1px solid #1f1f1f;
+      border: 1px solid rgba(233, 226, 202, 0.4);
       height: 600px;
       background: url("../assets/img/samurai/samurai_3_luna.png");
       background-size: cover;
       background-position: top;
-    }
-    .unknown {
-      border: 1px solid #1f1f1f;
-      height: 600px;
-      background: url("../assets/img/samurai/samurai_3_hidden.png");
-      background-size: cover;
-      background-position: top;
+      border-top-left-radius: 25px;
     }
   }
 }

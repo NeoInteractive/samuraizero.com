@@ -1,5 +1,8 @@
 <template>
-  <section class="app">
+  <section id="top" class="home">
+    <a v-on:click="goto('top')" class="float">
+      <i class="fas fa-chevron-up icn"></i>
+    </a>
     <section class="hero is-fullheight">
       <div class="hero-head">
         <Navbar />
@@ -12,12 +15,12 @@
               width="428px"
               style="margin-left: .2rem"
             /><br /><br />
-            <router-link
-              to="/samurai"
+            <a
+              v-on:click="goto('KeyFeatures')"
               id="zero-btn"
               class="button zero-btn"
               style="margin-right: 20px"
-              >Learn More</router-link
+              >Learn More</a
             >
             <a
               href="https://patreon.com/neointeractive"
@@ -35,11 +38,11 @@
         </div>
       </div>
     </section>
-    <News data-aos="fade-up" data-aos-duration="1500" />
-    <KeyFeatures data-aos="fade-up" data-aos-duration="1500" />
-    <ChooseSamurai data-aos="fade-up" data-aos-duration="1500" />
-    <FaceOff data-aos="fade-up" data-aos-duration="1500" />
-    <CTApatreon data-aos="fade-up" data-aos-duration="1500" />
+    <News data-aos="fade-up" data-aos-duration="1700" />
+    <KeyFeatures id="KeyFeatures" data-aos="fade-up" data-aos-duration="1800" />
+    <ChooseSamurai data-aos="fade-up" data-aos-duration="1800" />
+    <FaceOff data-aos="fade-up" data-aos-duration="1800" />
+    <CTApatreon data-aos="fade-up" data-aos-duration="1800" />
     <Newsletter />
     <Footer />
   </section>
@@ -69,12 +72,19 @@ export default {
   created() {
     AOS.init();
   },
+  methods: {
+    goto(refName) {
+      setTimeout(() => {
+        document.getElementById(refName).scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    },
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
-.app {
+.home {
   background: #000000;
 }
 // hero video -> https://neointeractive.b-cdn.net/web/heroteaser-minres.mp4
@@ -272,5 +282,27 @@ hr {
     padding-right: 1.5rem;
     text-align: center;
   }
+}
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #ac000e;
+  color: #fff;
+  text-align: center;
+  box-shadow: 2px 2px 3px #3b0005;
+  z-index: 99999;
+  opacity: 0.4;
+  transition: all 250ms ease-in-out;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+.icn {
+  margin-top: 22px;
 }
 </style>

@@ -7,7 +7,7 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title">Ryder</h1>
-          <h2 class="subtitle">The Mysterious Machina</h2>
+          <h2 class="subtitle">The Curious Machina</h2>
         </div>
       </div>
     </section>
@@ -25,44 +25,52 @@
             <div class="column is-6">
               <h3>About</h3>
               <p class="body">
+                <strong>Age:</strong> [UNKNOWN]
+                <br />
                 <strong>Alias:</strong> Ryder
                 <br />
-                <strong>Real Name:</strong> Hiro Kashikoi
+                <strong>Real Name:</strong> [UNKNOWN]
                 <br />
-                <strong>Spirit Partner:</strong> Toshihiro
+                <strong>Spirit Partner:</strong> [UNKNOWN]
                 <br />
-                <strong>Affiliation:</strong> Kashikoi Clan
+                <strong>Affiliation:</strong> Kashikoi Clan (speculated)
               </p>
+              <br /><br />
+              <q>
+                My work will be done when the fox finally sleeps.
+              </q>
               <h3>HISTORY</h3>
               <p class="body">
-                A mysterious entity in the world of Edo, Ryder moves like a bolt
-                of lightning from province to province, city to city, attending
-                to an agenda only he knows.
-                <br />
-                <br />The figure Ryder appeared relatively quickly after the New
-                Dawn, as if heralding the Great Leap Forward for the rest of the
-                world. His body appears to be covered in metal from head to toe,
-                replacing muscle and sinew with steel and wire.
-                <br />
-                <br />He does not interact with common people very often, and
-                most people find his words often incomprehensible, almost
-                altering between a scholar and a knight. Yet despite this, many
-                are not exactly sure what he is. He appears to be a machina, a
-                lifeless doll made from steel, but his words and actions feel
-                too emotive to be lifeless. Yet he cannot simply be a man in a
-                suit of armor, as certain details like his neck and head size
-                seem to preclude this.
-                <br />
-                <br />Among the whispers about him, many see him leaving the
-                area of land belonging to the prestigious Kashikoi Clan. However
-                even if he is a product of theirs, he does not seem to act in
-                their interest, unconcerned with their affairs.
-                <br />
-                <br />Currently he seems fascinated with Edo’s scattered
-                Samurai, Wraith in particular, and seeks them out to learn what
-                he can from them. Whether this knowledge is for some noble
-                purpose, nefarious ends, or simply for its own sake, the machina
-                lets nothing be certain.
+                Ryder is an automaton largely theorized to be affiliated with
+                the Kashikoi Clan in some shape or form. Little is known about
+                Ryder at the moment. Where he comes from or what he wants are a
+                mystery to all but a select few. While he moves with the
+                fluidity and natural motion of a human, he is most assuredly a
+                machine. From what can be gleamed, Ryder appears to take great
+                interest in strong samurai, but does not seem to seek their
+                elimination. Rather, he only wishes to test his skills against
+                them.
+                <br /><br />
+                Most notably, Ryder seems particularly fixated with the equally
+                mysterious samurai Wraith, and pursues him the most doggedly.
+                This apparently rivalry is largely one-sided, as Wraith does not
+                share an equal fascination with the machina beyond the usual
+                questions everyone has about him.
+                <br /><br />
+                The technology that composes Ryder is the most advanced in all
+                of Edo, but snippets of things he says somewhat imply that he is
+                not altogether sentient, and that there may be someone puppeting
+                the machine. If there are people privy to this knowledge, they
+                do not share.
+                <br /><br />
+                With lightning-fast movements and deft strikes with his blade,
+                he is a peerless duelist. While he might lack in crowd control
+                to help set up combos for his teammates, he more than makes up
+                for it in raw damage, allowing him to have some of the highest
+                damage-dealing potential of any samurai. While in a fight, Ryder
+                excels at eliminating threats before they become too much of an
+                issue, as his relative fragility causes him to struggle in
+                drawn-out fights.
               </p>
             </div>
           </div>
@@ -182,7 +190,8 @@ export default {
     font-size: 3rem;
     letter-spacing: 0.1rem;
   }
-  .body {
+  .body,
+  q {
     font-family: hypatia-sans-pro, sans-serif;
     font-size: 1.3rem;
     color: #faf7eb;
@@ -224,5 +233,10 @@ export default {
 #this-is {
   height: 756px;
   background: #030101;
+}
+video {
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #e9e2ca;
 }
 </style>

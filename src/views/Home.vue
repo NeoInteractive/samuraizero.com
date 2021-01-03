@@ -35,9 +35,9 @@
         </div>
       </div>
     </section>
+    <News />
     <FaceOff data-aos="fade-up" data-aos-duration="1500" />
     <LookForward data-aos="fade-up" data-aos-duration="1500" />
-    <News />
     <Newsletter />
     <Footer />
   </section>

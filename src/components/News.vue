@@ -138,9 +138,16 @@ section {
     color: #e9e2ca;
   }
   .content {
-    font-family: hypatia-sans-pro, sans-serif;
-    font-size: 1.1rem;
-    color: #faf7eb;
+    p {
+      font-family: hypatia-sans-pro, sans-serif;
+      font-size: 1.1rem;
+      color: #faf7eb;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
 }
 </style>

@@ -108,7 +108,7 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
       text-align: left;
       .title,
       .subtitle {
-        font-family: Hypatia Sans Pro, sans-serif !important;
+        font-family: hypatia-sans-pro, sans-serif;
         font-weight: 700;
         font-style: normal;
         color: ghostwhite;
@@ -135,7 +135,7 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
   min-height: 80px;
   background: #ac000e;
   color: white;
-  font-family: "Hypatia Sans Pro", sans-serif;
+  font-family: hypatia-sans-pro, sans-serif;
   letter-spacing: 0.02rem;
   strong {
     color: white;
@@ -153,12 +153,12 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 10rem;
+  font-family: hypatia-sans-pro, sans-serif;
   h2 {
     line-height: 2.5rem;
     letter-spacing: 0.01rem;
     text-align: left;
     font-weight: 300;
-    font-family: "Hypatia Sans Pro", sans-serif !important;
   }
   .sz-flower {
     margin-top: 7rem;
@@ -170,13 +170,11 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
   .intro-container {
     .intro-item-title {
       margin-top: 2rem;
-      font-family: "Hypatia Sans Pro", sans-serif !important;
       font-size: 3rem;
       color: #ac000e;
     }
     padding: 1rem;
     color: white;
-    font-family: "Hypatia Sans Pro", sans-serif;
     font-size: 1.35rem;
     font-weight: 300;
   }
@@ -192,7 +190,7 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
   padding-bottom: 15rem;
   .title {
     font-size: 3rem;
-    font-family: "Hypatia Sans Pro", sans-serif !important;
+    font-family: hypatia-sans-pro, sans-serif;
     font-weight: 600;
     color: #ac000e;
     text-transform: none;
@@ -224,22 +222,23 @@ iframe {
 hr {
   background: #ac000e;
 }
-.rotate {
-  animation: rotation 120s infinite linear;
-}
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-.is-partreon {
-  svg {
-    margin-right: 10px;
-  }
-}
+// .rotate {
+//   animation: rotation 120s infinite linear;
+// }
+// @keyframes rotation {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(359deg);
+//   }
+// }
+
+// .is-partreon {
+//   svg {
+//     margin-right: 10px;
+//   }
+// }
 
 @media only screen and (max-width: 1330px) {
   .hero {

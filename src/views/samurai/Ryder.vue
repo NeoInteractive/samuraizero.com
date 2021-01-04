@@ -15,15 +15,6 @@
       <div class="intro">
         <div id="about" class="container">
           <div class="columns is-multiline">
-            <div class="column is-12 has-text-centered">
-              <button
-                @click="$router.go(-1)"
-                class="button zero-btn white outlined"
-              >
-                Back to All Samurai
-              </button>
-              <br /><br /><br /><br />
-            </div>
             <div class="column is-6" style="text-align: right;">
               <img
                 src="../../assets/img/samurai/samurai_2_ryder.png"
@@ -81,6 +72,15 @@
                 issue, as his relative fragility causes him to struggle in
                 drawn-out fights.
               </p>
+            </div>
+            <div class="column is-12 has-text-centered">
+              <br /><br /><br /><br />
+              <button
+                @click="$router.go(-1)"
+                class="button zero-btn white outlined"
+              >
+                Back to All Samurai
+              </button>
             </div>
           </div>
         </div>

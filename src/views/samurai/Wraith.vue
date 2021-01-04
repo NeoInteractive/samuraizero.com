@@ -75,7 +75,7 @@
             <div class="column is-12 has-text-centered">
               <br /><br /><br /><br />
               <button
-                @click="$router.replace({ path: '/samurai' })"
+                @click="$router.go(-1)"
                 class="button zero-btn white outlined"
               >
                 Back to All Samurai

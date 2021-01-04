@@ -215,6 +215,7 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
         height: 600px;
         background-size: cover;
         background-position: top;
+        transition: all 0.6s ease;
       }
     }
     .level {
@@ -239,6 +240,7 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
       background-size: cover;
       background-position: top;
       border-top-left-radius: 25px;
+      transition: all 0.1s ease;
     }
     .ryder {
       border: 1px solid rgba(233, 226, 202, 0.4);
@@ -247,6 +249,7 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
       background-size: cover;
       background-position: top;
       border-top-left-radius: 25px;
+      transition: all 0.1s ease;
     }
     .luna {
       border: 1px solid rgba(233, 226, 202, 0.4);
@@ -255,6 +258,7 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
       background-size: cover;
       background-position: top;
       border-top-left-radius: 25px;
+      transition: all 0.6s ease;
     }
   }
 }

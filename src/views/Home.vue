@@ -72,11 +72,19 @@ export default {
   created() {
     AOS.init();
   },
+  mounted() {
+    this.playSound();
+  },
   methods: {
     goto(refName) {
       setTimeout(() => {
         document.getElementById(refName).scrollIntoView({ behavior: "smooth" });
       }, 100);
+    },
+    async playSound() {
+      const audio = new Audio("../../assets/audio/sz-menu-webcut.mp3");
+      console.dir(audio);
+      audio.play();
     },
   },
 };

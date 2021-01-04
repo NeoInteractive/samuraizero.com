@@ -9,6 +9,7 @@ export default {
   components: {
     TransitionPage,
   },
+  methods: {},
 };
 </script>
 <style lang="scss">

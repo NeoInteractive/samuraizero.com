@@ -1,7 +1,11 @@
 <template>
   <section id="top" class="home">
-    <a v-on:click="goto('top')" class="float">
+    <a @click="goto('top')" class="float">
       <i class="fas fa-chevron-up icn"></i>
+    </a>
+    <a @click="muteToggle" class="floatMute va">
+      <span v-show="audio.muted"><i class="fas fa-volume-mute"></i></span>
+      <span v-show="!audio.muted"><i class="fas fa-volume"></i></span>
     </a>
     <section class="hero is-fullheight">
       <div class="hero-head">
@@ -69,6 +73,12 @@ export default {
     CTApatreon,
     KeyFeatures,
   },
+  data() {
+    return {
+      audio: undefined,
+      bgAudio: false,
+    };
+  },
   created() {
     AOS.init();
   },
@@ -82,9 +92,15 @@ export default {
       }, 100);
     },
     async playSound() {
-      const audio = new Audio("../../assets/audio/sz-menu-webcut.mp3");
-      console.dir(audio);
-      audio.play();
+      this.audio = new Audio(
+        "https://rawcdn.githack.com/emkelley/Samurai-Zero-Frontend/fc110c8f96b3d725183e9be6d7dc1c2186e9c382/src/assets/audio/sz-menu-webcut.ogg"
+      );
+      this.audio.volume = 0.1;
+      this.audio.loop = true;
+      this.audio.play();
+    },
+    muteToggle() {
+      this.audio.muted = !this.audio.muted;
     },
   },
 };
@@ -290,7 +306,8 @@ hr {
     text-align: center;
   }
 }
-.float {
+.float,
+.floatMute {
   position: fixed;
   width: 60px;
   height: 60px;
@@ -307,6 +324,10 @@ hr {
     opacity: 1;
     cursor: pointer;
   }
+}
+.floatMute {
+  bottom: 40px;
+  right: 100px;
 }
 
 .icn {

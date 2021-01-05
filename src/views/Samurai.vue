@@ -79,12 +79,14 @@
         <div class="container">
           <div class="columns is-multiline">
             <div class="column is-12">
+              <h3 class="jp-subheading has-text-centered">武士道</h3>
+              <h1 class="title">Way of the Samurai</h1>
               <h3 class="body">
-                The Samurai are powerful warriors capable of reshaping the
-                future with their own two hands. Without the gods, they are the
-                last great power left to the world and its denizens. Through
-                their might or wit, they may either save Edo or deal the
-                finishing blow, sending it all into chaos.
+                In Samurai Zero, the Samurai are powerful warriors capable of
+                reshaping the future with their own two hands. Without the gods,
+                they are the last great power left to the world and its
+                denizens. Through their might or wit, they may either save Edo
+                or deal the finishing blow, sending it all into chaos.
                 <br />
                 <br />The key to a Samurai’s power is their bond with their
                 spirit-sanimal partner. A symbiotic union, the human and
@@ -168,10 +170,15 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
   padding-bottom: 10rem;
   font-family: Hypatia Sans Pro, sans-serif !important;
   .body {
-    color: #e9e2ca;
+    color: #faf7eb;
     line-height: 2.5rem;
     letter-spacing: 0.1rem;
     font-weight: 400;
+  }
+  .title {
+    color: #e9e2ca;
+    font-size: 3rem;
+    text-align: center;
   }
 }
 .samurai {
@@ -273,5 +280,12 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
     padding: 1rem;
     font-size: 1.1rem;
   }
+}
+.jp-subheading {
+  color: #ff2c3c;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: source-han-sans-japanese, sans-serif;
+  margin-bottom: 0.75rem;
 }
 </style>

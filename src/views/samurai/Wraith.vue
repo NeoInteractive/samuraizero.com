@@ -173,8 +173,10 @@ export default {
 #about {
   padding-bottom: 10rem;
   h3 {
-    color: #ff2c3c;
+    color: #e9e2ca;
     text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
   }
   .body,
   q {

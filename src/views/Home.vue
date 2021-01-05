@@ -3,9 +3,15 @@
     <a @click="goto('top')" class="float">
       <i class="fas fa-chevron-up icn"></i>
     </a>
-    <a @click="muteToggle" class="floatMute va">
-      <span v-show="audio.muted"><i class="fas fa-volume-mute"></i></span>
-      <span v-show="!audio.muted"><i class="fas fa-volume"></i></span>
+    <a v-show="audio.muted" @click="muteToggle" class="floatMute va">
+      <center>
+        <b-icon id="mute" pack="fas" icon="volume-mute"> </b-icon>
+      </center>
+    </a>
+    <a v-show="!audio.muted" @click="muteToggle" class="floatMute va">
+      <center>
+        <b-icon id="playing" pack="fas" icon="volume"> </b-icon>
+      </center>
     </a>
     <section class="hero is-fullheight">
       <div class="hero-head">
@@ -81,10 +87,9 @@ export default {
   },
   created() {
     AOS.init();
-  },
-  mounted() {
     this.playSound();
   },
+  mounted() {},
   methods: {
     goto(refName) {
       setTimeout(() => {
@@ -320,6 +325,7 @@ hr {
   z-index: 99999;
   opacity: 0.4;
   transition: all 250ms ease-in-out;
+  user-select: none;
   &:hover {
     opacity: 1;
     cursor: pointer;

@@ -14,7 +14,7 @@ export default {
 </script>
 <style lang="scss">
 // Import Bulma's core
-@import "~bulma/sass/utilities/_all";
+@import "bulma/sass/utilities/_all";
 aside.unsupported {
   background: rgb(228, 6, 6);
   height: 100px;

@@ -91,6 +91,7 @@ export default {
 footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: black;
 }
 .content {
   padding-top: 50px !important;

@@ -32,22 +32,9 @@
                 <strong>Real Name:</strong> Luna Alcmene
                 <br />
                 <strong>Spirit Partner:</strong> Leporin
-                <span class="tag is-primary">
-                  View in World Codex
-                  <i
-                    style="margin-left: .6rem"
-                    class="fas fa-external-link"
-                  ></i>
-                </span>
+
                 <br />
                 <strong>Affiliation:</strong> Alcmene Clan
-                <span class="tag is-primary">
-                  View in World Codex
-                  <i
-                    style="margin-left: .6rem"
-                    class="fas fa-external-link"
-                  ></i>
-                </span>
               </p>
               <br /><br />
               <q>

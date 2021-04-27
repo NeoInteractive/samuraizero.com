@@ -26,12 +26,14 @@
               style="margin-left: .2rem"
             /><br /><br />
             <a
-              v-on:click="goto('KeyFeatures')"
-              id="zero-btn"
-              class="button zero-btn"
+              class="zero-btn outlined button"
+              href="https://szero.dev/steam-www"
+              target="_blank"
               style="margin-right: 20px"
-              >Learn More</a
             >
+              <i class="fab fa-steam" style="margin-right: .5rem"></i>
+              Wishlist on Steam
+            </a>
             <a
               href="https://patreon.com/neointeractive"
               target="_blank"
@@ -42,7 +44,7 @@
                 class="fab fa-patreon"
                 style="margin-right: 10px; color: white"
               ></i>
-              &emsp;Support on Patreon
+              &emsp;Patreon
             </a>
           </div>
         </div>

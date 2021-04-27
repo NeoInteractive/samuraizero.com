@@ -44,7 +44,19 @@
       <div id="burger" class="navbar-menu" :class="{ 'is-active': isOpen }">
         <div class="navbar-end">
           <div class="navbar-item">
-            <a class="zero-btn white outlined button" disabled>World Codex</a>
+            <a
+              class="zero-btn outlined button"
+              href="https://szero.dev/steam-www"
+              target="_blank"
+            >
+              <i class="fab fa-steam" style="margin-right: .5rem"></i>
+              Wishlist on Steam
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a class="zero-btn white outlined button" disabled
+              >World Codex (Soon)</a
+            >
           </div>
         </div>
       </div>

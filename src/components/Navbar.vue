@@ -38,7 +38,7 @@
           <a href="https://merch.samuraizero.com/" class="navbar-item">Merch</a>
           <div class="navbar-item">
             <a
-              class="zero-btn outlined button"
+              class="zero-btn steam outlined button"
               href="https://szero.dev/steam-www"
               target="_blank"
             >

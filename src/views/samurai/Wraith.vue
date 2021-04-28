@@ -187,7 +187,8 @@ export default {
     letter-spacing: 0.1rem;
     font-weight: 400;
     strong {
-      color: white;
+      color: #ff2c3c;
+      text-transform: uppercase;
     }
   }
 }
@@ -200,6 +201,7 @@ export default {
   }
   .subtitle {
     color: #ff2c3c;
+    font-weight: 400;
   }
   p {
     font-family: hypatia-sans-pro, sans-serif;
@@ -210,5 +212,13 @@ export default {
 #this-is {
   height: 756px;
   background: #030101;
+}
+
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  #about,
+  #arts {
+    padding: 3rem 1rem;
+  }
 }
 </style>

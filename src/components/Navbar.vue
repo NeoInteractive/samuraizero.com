@@ -19,30 +19,23 @@
           <span aria-hidden="true" />
         </a>
       </div>
-      <div class="navbar-start">
-        <router-link
-          to="/"
-          class="navbar-item"
-          :class="{ 'is-active': currentPage == 'Home' }"
-          >Main</router-link
-        >
-        <!-- <router-link
-          to="/samurai"
-          class="navbar-item"
-          :class="{ 'is-active': currentPage == 'Gameplay' }"
-          >Gameplay</router-link
-        > -->
-        <router-link
-          to="/samurai"
-          class="navbar-item"
-          :class="{ 'is-active': currentPage == 'Samurai' }"
-          >Samurai</router-link
-        >
-        <a href="https://news.samuraizero.com/" class="navbar-item">News</a>
-        <a href="https://merch.samuraizero.com/" class="navbar-item">Merch</a>
-      </div>
+      <div class="navbar-start"></div>
       <div id="burger" class="navbar-menu" :class="{ 'is-active': isOpen }">
         <div class="navbar-end">
+          <router-link
+            to="/"
+            class="navbar-item"
+            :class="{ 'is-active': currentPage == 'Home' }"
+            >Main</router-link
+          >
+          <router-link
+            to="/samurai"
+            class="navbar-item"
+            :class="{ 'is-active': currentPage == 'Samurai' }"
+            >Samurai</router-link
+          >
+          <a href="https://news.samuraizero.com/" class="navbar-item">News</a>
+          <a href="https://merch.samuraizero.com/" class="navbar-item">Merch</a>
           <div class="navbar-item">
             <a
               class="zero-btn outlined button"
@@ -54,9 +47,7 @@
             </a>
           </div>
           <div class="navbar-item">
-            <a class="zero-btn white outlined button" disabled
-              >World Codex (Soon)</a
-            >
+            <a class="zero-btn white outlined button" disabled>Codex</a>
           </div>
         </div>
       </div>

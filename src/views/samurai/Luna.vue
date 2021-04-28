@@ -223,4 +223,10 @@ export default {
   height: 756px;
   background: #030101;
 }
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  #about {
+    padding: 1rem;
+  }
+}
 </style>

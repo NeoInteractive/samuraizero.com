@@ -26,7 +26,7 @@
               style="margin-left: .2rem"
             /><br /><br />
             <a
-              class="zero-btn outlined button"
+              class="zero-btn steam outlined button"
               href="https://szero.dev/steam-www"
               target="_blank"
               style="margin-right: 20px"
@@ -42,9 +42,9 @@
             >
               <i
                 class="fab fa-patreon"
-                style="margin-right: 10px; color: white"
+                style="margin-right: .5rem; color: white"
               ></i>
-              &emsp;Patreon
+              Patreon
             </a>
           </div>
         </div>

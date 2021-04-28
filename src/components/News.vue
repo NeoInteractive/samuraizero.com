@@ -53,7 +53,7 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 62.5em) {
-  section {
+  .description {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 5rem !important;
@@ -82,7 +82,7 @@ export default {
     }
   }
 }
-section {
+.description {
   background: radial-gradient(
       rgba(255, 255, 255, 0) 0%,
       rgba(0, 0, 0, 0.472) 51.1%,
@@ -119,7 +119,7 @@ section {
 .jp-subheading {
   color: #ff2c3c;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
   font-family: source-han-sans-japanese, sans-serif;
   margin-bottom: 0.75rem;
 }
@@ -148,6 +148,19 @@ section {
       overflow: hidden;
       text-overflow: ellipsis;
     }
+  }
+}
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  .description {
+    padding: 3rem 1rem;
+  }
+  .news-title {
+    font-size: 2.25rem !important;
+    padding-top: 0 !important;
+  }
+  .jp-subheading {
+    margin-bottom: 0rem;
   }
 }
 </style>

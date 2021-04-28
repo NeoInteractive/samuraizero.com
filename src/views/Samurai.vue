@@ -156,6 +156,10 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
     font-size: 3rem;
     color: #e9e2ca;
   }
+  .subtitle {
+    color: #ff2c3c;
+    font-weight: 400;
+  }
 }
 .intro {
   background: radial-gradient(

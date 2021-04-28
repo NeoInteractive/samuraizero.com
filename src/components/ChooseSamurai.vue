@@ -8,21 +8,23 @@
           </center>
         </div>
         <div class="column is-8 right va">
-          <h3 class="jp-subheading" lang="jp">あなたの過去に目を向ける</h3>
+          <div class="va">
+            <h3 class="jp-subheading" lang="jp">あなたの過去に目を向ける</h3>
 
-          <h1 class="title">Choose your samurai</h1>
-          <div class="content">
-            <p>
-              Perfect your skills in a team-focused arena fighting game;
-              mastering the various skills and strengths of powerful Samurai
-              tailored to your own playstyle.
-            </p>
-            <p>
-              Discover everything the world of Edo has to offer. From the
-              ancient mystical ruins, to technologically marvelous capitals,
-              discover the vast history of conflict that has shaped the world of
-              Edo.
-            </p>
+            <h1 class="title">Choose your samurai</h1>
+            <div class="content">
+              <p>
+                Perfect your skills in a team-focused arena fighting game;
+                mastering the various skills and strengths of powerful Samurai
+                tailored to your own playstyle.
+              </p>
+              <p>
+                Discover everything the world of Edo has to offer. From the
+                ancient mystical ruins, to technologically marvelous capitals,
+                discover the vast history of conflict that has shaped the world
+                of Edo.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -110,6 +112,38 @@ export default {};
   }
   100% {
     transform: rotate(-0.75deg);
+  }
+}
+
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  .swing {
+    display: none !important;
+  }
+  .faceOff {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .right {
+    text-align: center;
+    padding: 2rem;
+    .jp-subheading {
+      padding-left: 0rem;
+    }
+    .title {
+      padding-left: 0rem;
+      font-size: 2.25rem;
+    }
+    .content {
+      padding-left: 0rem;
+      p {
+        letter-spacing: 0.1rem;
+        text-align: center;
+        font-family: hypatia-sans-pro, sans-serif;
+        font-size: 1.4rem;
+        color: #faf7eb;
+      }
+    }
   }
 }
 </style>

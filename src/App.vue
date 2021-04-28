@@ -63,6 +63,15 @@ aside.unsupported {
       border-color: #f96854;
     }
   }
+  &.steam {
+    color: #e9e2ca;
+    background: #0d1b37;
+    border: 1px solid #004da5;
+    &:hover {
+      background: #000731;
+      border-color: #00137c !important;
+    }
+  }
   &.white {
     background: rgba(255, 255, 255, 0.6);
     border: 1px solid #e9e2ca;
@@ -74,6 +83,12 @@ aside.unsupported {
     }
   }
 }
+@media only screen and (max-width: 450px) {
+  .button.zero-btn {
+    margin-bottom: 1rem;
+  }
+}
+
 // Import Bulma's core
 // Set your colors
 $primary: #ac000e;

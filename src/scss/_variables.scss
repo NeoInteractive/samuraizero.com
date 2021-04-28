@@ -45,7 +45,11 @@ h5 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+@media only screen and (max-width: 450px) {
+  button.zero-btn {
+    margin-top: 2rem;
+  }
+}
 .zero-btn {
   background: rgba(255, 44, 62, 0.4);
   border: 1px solid #ac000e;
@@ -70,5 +74,11 @@ h5 {
       background: #f96854;
       border-color: #f96854;
     }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .zero-btn {
+    margin-top: 1rem;
   }
 }

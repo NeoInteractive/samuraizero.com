@@ -1,14 +1,16 @@
 <template>
   <section class="cta-container">
     <div class="columns">
-      <div class="column is-8 is-offset-2 va has-text-centered">
-        <h3 class="jp-subheading" lang="jp">{{ jpSubtitle }}</h3>
-        <h2 class="title">{{ title }}</h2>
-        <p>
-          {{ description }}
-        </p>
-        <br /><br />
-        <ZeroBtn :text="buttonText" type="patreon" :url="url" />
+      <div class="column is-8 is-offset-2  has-text-centered">
+        <div class="va">
+          <h3 class="jp-subheading" lang="jp">{{ jpSubtitle }}</h3>
+          <h2 class="title">{{ title }}</h2>
+          <p>
+            {{ description }}
+          </p>
+          <br /><br />
+          <ZeroBtn :text="buttonText" type="patreon" :url="url" />
+        </div>
       </div>
     </div>
   </section>
@@ -55,5 +57,27 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  .cta-container {
+    text-align: center;
+    padding: 1rem !important;
+    .jp-subheading {
+      padding-left: 0rem;
+    }
+    .title {
+      padding-left: 0rem;
+      font-size: 2.25rem;
+    }
+    p {
+      letter-spacing: 0.1rem;
+      text-align: left;
+      font-family: hypatia-sans-pro, sans-serif;
+      font-size: 1.1rem;
+      color: #faf7eb;
+    }
+  }
 }
 </style>

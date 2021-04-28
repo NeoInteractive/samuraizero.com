@@ -38,4 +38,12 @@ export default {
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
+
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  .newsletter {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
 </style>

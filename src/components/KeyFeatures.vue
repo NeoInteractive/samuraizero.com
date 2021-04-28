@@ -97,4 +97,20 @@ p {
   font-size: 1.4rem;
   color: #faf7eb;
 }
+
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  .keyFeatures {
+    padding: 5rem 1rem;
+    text-align: center;
+    padding-bottom: 0rem;
+    p {
+      text-align: center;
+    }
+    .title {
+      font-size: 2.25rem !important;
+      padding-top: 0 !important;
+    }
+  }
+}
 </style>

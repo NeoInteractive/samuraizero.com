@@ -248,4 +248,10 @@ video {
   border-radius: 10px;
   border: 1px solid #e9e2ca;
 }
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  #about {
+    padding: 1rem;
+  }
+}
 </style>

@@ -1,6 +1,15 @@
 <template>
   <div>
     <footer>
+      <center class="container is-max-widescreen">
+        <iframe
+          src="https://store.steampowered.com/widget/1578520/"
+          frameborder="0"
+          width="100%"
+          height="190"
+        ></iframe>
+      </center>
+      <br /><br />
       <div class="container content">
         <div class="columns ">
           <div class="column is-3">
@@ -12,49 +21,54 @@
           </div>
           <div class="column is-9 va">
             <div class="level" style="padding-top: .5rem">
-              <router-link class="level-item footer-navbar-item" to="/">
+              <router-link class="level-item footer-navbar-item text" to="/">
                 Main
               </router-link>
-              <router-link class="level-item footer-navbar-item" to="/">
+              <router-link class="level-item footer-navbar-item text" to="/">
                 Gameplay Features
               </router-link>
-              <router-link class="level-item footer-navbar-item" to="/">
+              <router-link class="level-item footer-navbar-item text" to="/">
                 Samurai
               </router-link>
-              <router-link class="level-item footer-navbar-item" to="/">
+              <router-link class="level-item footer-navbar-item text" to="/">
                 News
               </router-link>
-              <router-link class="level-item footer-navbar-item" to="/">
+              <router-link class="level-item footer-navbar-item text" to="/">
                 Merch
               </router-link>
-              <router-link class="level-item footer-navbar-item" to="/">
+              <router-link class="level-item footer-navbar-item text" to="/">
                 FAQ
               </router-link>
               <a
-                class="level-item footer-navbar-item"
+                class="level-item footer-navbar-item text"
                 href="https://patreon.com/neointeractive"
                 >Patreon</a
               >
               <a
-                class="level-item footer-navbar-item"
+                class="level-item footer-navbar-item text"
+                href="https://patreon.com/neointeractive"
+                >Steam</a
+              >
+              <a
+                class="level-item footer-navbar-item icon"
                 href="https://twitter.com/playsamuraizero"
               >
                 <i class="fab fa-twitter"> </i>
               </a>
               <a
-                class="level-item footer-navbar-item"
+                class="level-item footer-navbar-item icon"
                 href="https://instagram.com/playsamuraizero"
               >
                 <i class="fab fa-instagram"> </i>
               </a>
               <a
-                class="level-item footer-navbar-item"
+                class="level-item footer-navbar-item icon"
                 href="https://www.youtube.com/channel/UCR0aJEK80HK53sHmUGTbCHw"
               >
                 <i class="fab fa-youtube"> </i>
               </a>
               <a
-                class="level-item footer-navbar-item"
+                class="level-item footer-navbar-item icon"
                 href="https://www.twitch.tv/neointeractive"
               >
                 <i class="fab fa-twitch"> </i>
@@ -63,7 +77,7 @@
           </div>
         </div>
         <hr />
-        <div class="level">
+        <div class="level legal">
           <div class="level-left">
             <div class="level-item copy">
               Made with ❤️ and 🍻 by the team at Neo Interactive <br />
@@ -152,5 +166,23 @@ hr {
   background: rgba(248, 248, 255, 0.507);
   height: 1px;
   margin-bottom: 0;
+}
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  iframe,
+  .text,
+  .legal {
+    display: none;
+  }
+  .level-item {
+    &.icon {
+      display: inline-block;
+      margin-right: 1.5rem;
+      font-size: 1.5rem;
+    }
+  }
+  footer {
+    padding-bottom: 0;
+  }
 }
 </style>

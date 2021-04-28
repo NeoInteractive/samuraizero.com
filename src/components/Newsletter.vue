@@ -10,26 +10,27 @@
             for the Samurai Zero Development Newsletter.
           </p>
         </div>
-        <div class="column is-5 is-offset-2 input-fields va">
-          <div @keydown.enter="submit" style="text-align: right">
-            <br />
-            <div class="field has-addons">
-              <div class="control is-expanded">
-                <input
-                  v-model="email"
-                  class="input is-medium is-dark"
-                  type="email"
-                  name="email"
-                  placeholder="Enter your email"
-                />
-              </div>
-              <div class="control">
-                <a
-                  class="button zero-btn outlined white is-medium"
-                  type="submit"
-                  @click="submit"
-                  >Sign Up</a
-                >
+        <div class="column is-5 is-offset-2 input-fields ">
+          <div class="va">
+            <div @keydown.enter="submit" style="text-align: right">
+              <br />
+              <div class="field has-addons">
+                <div class="control is-expanded">
+                  <input
+                    v-model="email"
+                    class="input is-medium is-dark"
+                    type="email"
+                    name="email"
+                  />
+                </div>
+                <div class="control">
+                  <a
+                    class="button zero-btn outlined white is-medium"
+                    type="submit"
+                    @click="submit"
+                    >Sign Up</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -138,5 +139,27 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  .newsletter {
+    text-align: center;
+    padding: 1rem;
+    .jp-subheading {
+      padding-left: 0rem;
+    }
+    .title {
+      padding-left: 0rem;
+      font-size: 2.25rem;
+    }
+    p {
+      letter-spacing: 0.1rem;
+      text-align: left;
+      font-family: hypatia-sans-pro, sans-serif;
+      font-size: 1.1rem;
+      color: #faf7eb;
+    }
+  }
 }
 </style>

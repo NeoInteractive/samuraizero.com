@@ -2,23 +2,25 @@
   <section class="faceOff">
     <div class="container">
       <div class="columns">
-        <div class="column is-6 left va">
-          <h3 class="jp-subheading" lang="jp">未来を見るために</h3>
-          <h1 class="title">Face off in the science fantasy world of Edo</h1>
-          <div class="content">
-            <p>
-              Perfect your skills in a team-focused arena fighting game,
-              mastering the various skills and strengths of powerful Samurai.
-            </p>
-            <p>
-              Discover everything the world of Edo has to offer. From the
-              ancient mystical ruins, to technologically marvelous capitals,
-              discover the vast history of conflict that has shaped the world of
-              Edo.
-            </p>
+        <div class="column is-6 left">
+          <div class="va">
+            <h3 class="jp-subheading" lang="jp">未来を見るために</h3>
+            <h1 class="title">Face off in the science fantasy world of Edo</h1>
+            <div class="content">
+              <p>
+                Perfect your skills in a team-focused arena fighting game,
+                mastering the various skills and strengths of powerful Samurai.
+              </p>
+              <p>
+                Discover everything the world of Edo has to offer. From the
+                ancient mystical ruins, to technologically marvelous capitals,
+                discover the vast history of conflict that has shaped the world
+                of Edo.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="column is-6 va">
+        <div class="column is-6 va slider">
           <section id="slider">
             <input type="radio" name="slider" id="s1" checked />
             <input type="radio" name="slider" id="s2" />
@@ -167,5 +169,36 @@ export default {};
 }
 #slide3 {
   background: url(../assets/img/faceOff_gallery_3.jpg);
+}
+// Mobile styles
+@media only screen and (max-width: 450px) {
+  .slider {
+    display: none !important;
+  }
+  .faceOff {
+    padding-top: 0rem;
+    height: 750px;
+  }
+  .left {
+    text-align: center;
+    padding: 2rem;
+    .jp-subheading {
+      padding-left: 0rem;
+    }
+    .title {
+      padding-left: 0rem;
+      font-size: 2rem;
+    }
+    .content {
+      padding-left: 0rem;
+      p {
+        letter-spacing: 0.1rem;
+        text-align: center;
+        font-family: hypatia-sans-pro, sans-serif;
+        font-size: 1.4rem;
+        color: #faf7eb;
+      }
+    }
+  }
 }
 </style>

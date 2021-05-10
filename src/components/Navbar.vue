@@ -34,6 +34,9 @@
             :class="{ 'is-active': currentPage == 'Samurai' }"
             >Samurai</router-link
           >
+          <a href="https://roadmap.samuraizero.com/" class="navbar-item">
+            Roadmap
+          </a>
           <a href="https://news.samuraizero.com/" class="navbar-item">News</a>
           <a href="https://merch.samuraizero.com/" class="navbar-item">Merch</a>
           <div class="navbar-item">

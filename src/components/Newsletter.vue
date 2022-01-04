@@ -10,7 +10,7 @@
             for the Samurai Zero Development Newsletter.
           </p>
         </div>
-        <div class="column is-5 is-offset-2 input-fields ">
+        <div class="column is-5 is-offset-2 input-fields  is-flex is-vcentered">
           <div class="va">
             <div @keydown.enter="submit" style="text-align: right">
               <br />
@@ -92,7 +92,7 @@ export default {
 <style lang="scss" scoped>
 .newsletter {
   background: #000000;
-  font-family: hypatia-sans-pro, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   border-bottom: 1px solid #e9e2ca;
   padding-top: 10rem;
   padding-bottom: 10rem;
@@ -156,7 +156,7 @@ input {
     p {
       letter-spacing: 0.1rem;
       text-align: left;
-      font-family: hypatia-sans-pro, sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       font-size: 1.1rem;
       color: #faf7eb;
     }

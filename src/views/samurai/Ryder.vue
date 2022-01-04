@@ -173,12 +173,12 @@ export default {
   background-repeat: no-repeat;
   .hero-body {
     .title {
-      font-family: hypatia-sans-pro, sans-serif !important;
+      font-family: "Space Grotesk", sans-serif !important;
       color: #e9e2ca;
       font-size: 3rem;
     }
     .subtitle {
-      font-family: hypatia-sans-pro, sans-serif !important;
+      font-family: "Space Grotesk", sans-serif !important;
       color: #e9e2ca;
       font-style: italic;
       font-weight: 400;
@@ -191,7 +191,7 @@ export default {
   padding-top: 10rem;
 }
 #about {
-  font-family: hypatia-sans-pro, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   padding-bottom: 10rem;
   h3 {
     color: #e9e2ca;
@@ -201,7 +201,7 @@ export default {
   }
   .body,
   q {
-    font-family: hypatia-sans-pro, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 1.3rem;
     color: #faf7eb;
     line-height: 2.5rem;
@@ -225,7 +225,7 @@ export default {
   background-size: cover;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  font-family: hypatia-sans-pro, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   .title {
     color: #e9e2ca;
   }
@@ -234,7 +234,7 @@ export default {
     font-weight: 400;
   }
   p {
-    font-family: hypatia-sans-pro, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     color: #faf7eb;
     font-size: 1.3rem;
   }

@@ -50,7 +50,7 @@
             </a>
           </div>
           <div class="navbar-item">
-            <a class="zero-btn white outlined button" disabled>Codex</a>
+            <a href="https://codex.samuraizero.com" target="_blank" class="zero-btn white outlined button">Codex</a>
           </div>
         </div>
       </div>

@@ -79,7 +79,7 @@ export default {};
 .title {
   color: #e9e2ca;
   text-transform: uppercase;
-  font-family: hypatia-sans-pro, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 3rem;
   padding-bottom: 0.75rem;
   border-bottom: 5px solid #faf7eb;
@@ -88,12 +88,11 @@ export default {};
 .subtitle {
   color: #e9e2ca;
   font-size: 2rem;
-  font-family: hypatia-sans-pro, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 p {
-  letter-spacing: 0.1rem;
-  text-align: justify;
-  font-family: hypatia-sans-pro, sans-serif;
+  letter-spacing: 0.05rem;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.4rem;
   color: #faf7eb;
 }

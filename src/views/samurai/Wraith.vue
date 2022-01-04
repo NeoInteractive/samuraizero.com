@@ -180,7 +180,7 @@ export default {
   }
   .body,
   q {
-    font-family: hypatia-sans-pro, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 1.3rem;
     color: rgb(240, 240, 240);
     line-height: 2.5rem;
@@ -204,7 +204,7 @@ export default {
     font-weight: 400;
   }
   p {
-    font-family: hypatia-sans-pro, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     color: white;
     font-size: 1.3rem;
   }

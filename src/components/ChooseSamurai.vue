@@ -80,7 +80,7 @@ export default {};
     padding-left: 10rem;
     color: #e9e2ca;
     text-transform: uppercase;
-    font-family: hypatia-sans-pro, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 3rem;
     padding-bottom: 0.75rem;
     border-bottom: 5px solid #faf7eb;
@@ -89,9 +89,8 @@ export default {};
   .content {
     padding-left: 15rem;
     p {
-      letter-spacing: 0.1rem;
-      text-align: justify;
-      font-family: hypatia-sans-pro, sans-serif;
+      letter-spacing: 0.05rem;
+      font-family: "Space Grotesk", sans-serif;
       font-size: 1.4rem;
       color: #faf7eb;
     }
@@ -139,7 +138,7 @@ export default {};
       p {
         letter-spacing: 0.1rem;
         text-align: center;
-        font-family: hypatia-sans-pro, sans-serif;
+        font-family: "Space Grotesk", sans-serif;
         font-size: 1.4rem;
         color: #faf7eb;
       }

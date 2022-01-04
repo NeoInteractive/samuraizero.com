@@ -139,7 +139,7 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
       text-align: left;
       .title,
       .subtitle {
-        font-family: hypatia-sans-pro, sans-serif;
+        font-family: "Space Grotesk", sans-serif;
         font-weight: 700;
         font-style: normal;
         color: ghostwhite;
@@ -166,7 +166,7 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
   min-height: 80px;
   background: #ac000e;
   color: white;
-  font-family: hypatia-sans-pro, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   letter-spacing: 0.02rem;
   strong {
     color: white;
@@ -184,7 +184,7 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 10rem;
-  font-family: hypatia-sans-pro, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   h2 {
     line-height: 2.5rem;
     letter-spacing: 0.01rem;
@@ -221,7 +221,7 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
   padding-bottom: 15rem;
   .title {
     font-size: 3rem;
-    font-family: hypatia-sans-pro, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-weight: 600;
     color: #ac000e;
     text-transform: none;

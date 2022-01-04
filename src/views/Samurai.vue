@@ -89,7 +89,7 @@
                 or deal the finishing blow, sending it all into chaos.
                 <br />
                 <br />The key to a Samurai’s power is their bond with their
-                spirit-sanimal partner. A symbiotic union, the human and
+                spirit-animal partner. A symbiotic union, the human and
                 non-human pair enter into a contractual agreement that empowers
                 one another. To the human, supernatural abilities are attained,
                 elevating them far beyond what a normal mortal is capable of. To
@@ -149,9 +149,9 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: Hypatia Sans Pro, sans-serif !important;
+  font-family: "Space Grotesk", sans-serif !important;
   .title {
-    font-family: Hypatia Sans Pro, sans-serif !important;
+    font-family: "Space Grotesk", sans-serif !important;
     font-weight: 700;
     font-size: 3rem;
     color: #e9e2ca;
@@ -172,7 +172,7 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 10rem;
-  font-family: Hypatia Sans Pro, sans-serif !important;
+  font-family: "Space Grotesk", sans-serif !important;
   .body {
     color: #faf7eb;
     line-height: 2.5rem;
@@ -180,17 +180,19 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
     font-weight: 400;
   }
   .title {
+    font-family: "Space Grotesk", sans-serif !important;
     color: #e9e2ca;
     font-size: 3rem;
     text-align: center;
   }
 }
 .samurai {
-  font-family: Hypatia Sans Pro, sans-serif !important;
+  font-family: "Space Grotesk", sans-serif !important;
   background: #030101;
   padding-top: 10rem;
   padding-bottom: 10rem;
   .title {
+    font-family: "Space Grotesk", sans-serif;
     font-size: 3rem;
     color: #faf7eb;
     span {
@@ -200,7 +202,7 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
   p {
     font-size: 1.5rem;
     color: #faf7eb;
-    font-family: hypatia-sans-pro, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
   }
   .profile {
     transition: all 0.1s ease;

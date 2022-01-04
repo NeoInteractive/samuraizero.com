@@ -32,7 +32,7 @@ export default {
 <style lang="scss" scoped>
 .newsletter {
   background: #000000;
-  font-family: hypatia-sans-pro, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   border-top: 1px solid #e9e2ca;
   border-bottom: 1px solid #e9e2ca;
   padding-top: 10rem;

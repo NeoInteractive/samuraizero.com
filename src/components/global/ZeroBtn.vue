@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 .zero-btn {
-  font-family: hypatia-sans-pro, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   background: rgba(255, 44, 62, 0.4);
   border: 1px solid #ac000e;
   color: #e9e2ca;

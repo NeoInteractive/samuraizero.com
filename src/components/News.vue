@@ -58,18 +58,18 @@ export default {
     padding-right: 2rem;
     padding-bottom: 5rem !important;
     .news-title {
-      font-family: hypatia-sans-pro, sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       padding-top: 5rem;
       padding-bottom: 2rem !important;
       font-size: 3rem;
       text-align: center;
     }
     .title {
-      font-family: hypatia-sans-pro, sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       font-size: 2.3rem;
     }
     .content {
-      font-family: hypatia-sans-pro, sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       font-size: 1.3rem !important;
       padding-bottom: 2rem;
     }
@@ -114,7 +114,7 @@ export default {
   padding-bottom: 1rem;
   letter-spacing: 2px;
   color: #e9e2ca;
-  font-family: hypatia-sans-pro, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 .jp-subheading {
   color: #ff2c3c;
@@ -133,13 +133,13 @@ export default {
   }
   .news-title-card {
     font-weight: 400 !important;
-    font-family: hypatia-sans-pro, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     letter-spacing: 0.1rem;
     color: #e9e2ca;
   }
   .content {
     p {
-      font-family: hypatia-sans-pro, sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       font-size: 1.1rem;
       color: #faf7eb;
       display: -webkit-box;

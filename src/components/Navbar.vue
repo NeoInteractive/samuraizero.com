@@ -36,6 +36,13 @@
           >
             Alpha
           </router-link>
+          <router-link
+            to="/samurai"
+            class="navbar-item"
+            :class="{ 'is-active': currentPage == 'Samurai' }"
+          >
+            Samurai
+          </router-link>
           <a href="https://roadmap.samuraizero.com/" class="navbar-item">
             Roadmap
           </a>

@@ -23,7 +23,7 @@
             <div class="level" style="padding-top: .5rem">
               <a
                 class="level-item footer-navbar-item text"
-                href="https://patreon.com/neointeractive"
+                href="https://szero.dev/patreon"
               >
                 Patreon
               </a>
@@ -41,7 +41,7 @@
               </router-link>
               <a
                 class="level-item footer-navbar-item text"
-                href="https://patreon.com/neointeractive"
+                href="https://szero.dev/steam"
               >
                 Steam
               </a>

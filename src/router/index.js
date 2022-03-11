@@ -13,6 +13,12 @@ const router = new Router({
         import(/* webpackChunkName: "Home" */ "@/views/Home.vue"),
     },
     {
+      path: "/alpha",
+      name: "alpha",
+      component: () =>
+        import(/* webpackChunkName: "alpha" */ "@/views/Alpha.vue"),
+    },
+    {
       path: "/media",
       name: "Media",
       component: () =>

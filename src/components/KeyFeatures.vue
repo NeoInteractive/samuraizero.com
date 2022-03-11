@@ -89,6 +89,7 @@ export default {};
   color: #e9e2ca;
   font-size: 2rem;
   font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
 }
 p {
   letter-spacing: 0.05rem;

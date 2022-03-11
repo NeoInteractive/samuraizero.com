@@ -26,14 +26,16 @@
             to="/"
             class="navbar-item"
             :class="{ 'is-active': currentPage == 'Home' }"
-            >Main</router-link
           >
+            Main
+          </router-link>
           <router-link
-            to="/samurai"
+            to="/alpha"
             class="navbar-item"
-            :class="{ 'is-active': currentPage == 'Samurai' }"
-            >Samurai</router-link
+            :class="{ 'is-active': currentPage == 'Beta' }"
           >
+            Alpha
+          </router-link>
           <a href="https://roadmap.samuraizero.com/" class="navbar-item">
             Roadmap
           </a>
@@ -50,7 +52,12 @@
             </a>
           </div>
           <div class="navbar-item">
-            <a href="https://codex.samuraizero.com" target="_blank" class="zero-btn white outlined button">Codex</a>
+            <a
+              href="https://codex.samuraizero.com"
+              target="_blank"
+              class="zero-btn white outlined button"
+              >Codex</a
+            >
           </div>
         </div>
       </div>
@@ -79,7 +86,7 @@ $text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   height: 110px;
   cursor: pointer;
   .navbar-item {
-    font-family: hypatia-sans-pro, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     text-transform: uppercase;
     color: #e9e2ca;
     text-shadow: $text-shadow;

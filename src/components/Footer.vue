@@ -21,34 +21,30 @@
           </div>
           <div class="column is-9 va">
             <div class="level" style="padding-top: .5rem">
-              <router-link class="level-item footer-navbar-item text" to="/">
-                Main
-              </router-link>
-              <router-link class="level-item footer-navbar-item text" to="/">
-                Gameplay Features
-              </router-link>
-              <router-link class="level-item footer-navbar-item text" to="/">
+              <a
+                class="level-item footer-navbar-item text"
+                href="https://patreon.com/neointeractive"
+              >
+                Patreon
+              </a>
+              <a
+                class="level-item footer-navbar-item text"
+                href="https://roadmap.samuraizero.com/"
+              >
+                Roadmap
+              </a>
+              <router-link
+                class="level-item footer-navbar-item text"
+                to="/samurai"
+              >
                 Samurai
               </router-link>
-              <router-link class="level-item footer-navbar-item text" to="/">
-                News
-              </router-link>
-              <router-link class="level-item footer-navbar-item text" to="/">
-                Merch
-              </router-link>
-              <router-link class="level-item footer-navbar-item text" to="/">
-                FAQ
-              </router-link>
               <a
                 class="level-item footer-navbar-item text"
                 href="https://patreon.com/neointeractive"
-                >Patreon</a
               >
-              <a
-                class="level-item footer-navbar-item text"
-                href="https://patreon.com/neointeractive"
-                >Steam</a
-              >
+                Steam
+              </a>
               <a
                 class="level-item footer-navbar-item icon"
                 href="https://twitter.com/playsamuraizero"
@@ -81,7 +77,7 @@
           <div class="level-left">
             <div class="level-item copy">
               Made with ❤️ and 🍻 by the team at Neo Interactive <br />
-              &copy; 2021 Neo Interactive LLC
+              &copy; 2022 Neo Interactive LLC
             </div>
           </div>
           <div class="level-right">
@@ -130,6 +126,10 @@ img {
   &:hover {
     opacity: 1;
   }
+}
+i,
+svg {
+  width: 2rem;
 }
 
 ul {

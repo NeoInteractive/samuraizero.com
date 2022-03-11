@@ -63,6 +63,7 @@ export default {
       padding-bottom: 2rem !important;
       font-size: 3rem;
       text-align: center;
+      font-weight: bold;
     }
     .title {
       font-family: "Space Grotesk", sans-serif;
@@ -132,16 +133,16 @@ export default {
     color: #e9e2ca;
   }
   .news-title-card {
-    font-weight: 400 !important;
+    font-weight: bold;
     font-family: "Space Grotesk", sans-serif;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0rem;
     color: #e9e2ca;
   }
   .content {
     p {
       font-family: "Space Grotesk", sans-serif;
       font-size: 1.1rem;
-      color: #faf7eb;
+      color: #fffdf7;
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;

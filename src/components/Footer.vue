@@ -33,12 +33,6 @@
               >
                 Roadmap
               </a>
-              <router-link
-                class="level-item footer-navbar-item text"
-                to="/samurai"
-              >
-                Samurai
-              </router-link>
               <a
                 class="level-item footer-navbar-item text"
                 href="https://szero.dev/steam"
@@ -68,6 +62,12 @@
                 href="https://www.twitch.tv/neointeractive"
               >
                 <i class="fab fa-twitch"> </i>
+              </a>
+              <a
+                class="level-item footer-navbar-item icon"
+                href="https://discord.gg/XTpAjDP"
+              >
+                <i class="fab fa-discord"> </i>
               </a>
             </div>
           </div>

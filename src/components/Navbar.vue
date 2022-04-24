@@ -98,7 +98,7 @@ $text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     color: #e9e2ca;
     text-shadow: $text-shadow;
     letter-spacing: 0.15rem;
-    font-weight: 400;
+    font-weight: 700;
     cursor: pointer;
     font-size: 1rem;
     &.is-active {

@@ -31,10 +31,14 @@ export default {
 
 <style lang="scss" scoped>
 .newsletter {
-  background: #000000;
+  background: linear-gradient(150deg, #0000009d, #000000),
+    url("../assets/img/wood-dark.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Space Grotesk", sans-serif;
-  border-top: 1px solid #e9e2ca;
-  border-bottom: 1px solid #e9e2ca;
+  border-top: 1px solid #e9e2cac2;
+  border-bottom: 1px solid #e9e2cac2;
   padding-top: 10rem;
   padding-bottom: 10rem;
 }

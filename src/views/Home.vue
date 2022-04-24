@@ -31,20 +31,17 @@
               target="_blank"
               style="margin-right: 20px"
             >
-              <i class="fab fa-steam" style="margin-right: .5rem"></i>
+              <i class="fab fa-steam" style="margin-right: .5rem" />
               Wishlist on Steam
             </a>
             <a
-              href="https://patreon.com/neointeractive"
+              class="zero-btn steam outlined button"
+              href="https://www.youtube.com/watch?v=tWHKfr0O_9A"
               target="_blank"
-              class="button is-patreon zero-btn patreon"
-              style="color: white"
+              style="margin-right: 20px"
             >
-              <i
-                class="fab fa-patreon"
-                style="margin-right: .5rem; color: white"
-              ></i>
-              Patreon
+              <i class="fab fa-youtube" style="margin-right: .5rem" />
+              Latest Trailer
             </a>
           </div>
         </div>
@@ -54,6 +51,7 @@
     <KeyFeatures id="KeyFeatures" data-aos="fade-up" data-aos-duration="1800" />
     <ChooseSamurai data-aos="fade-up" data-aos-duration="1800" />
     <FaceOff data-aos="fade-up" data-aos-duration="1800" />
+    <WorldOfEdo data-aos="fade-up" data-aos-duration="1800" />
     <CTApatreon data-aos="fade-up" data-aos-duration="1800" />
     <Newsletter />
     <Footer />
@@ -70,6 +68,7 @@ import ChooseSamurai from "@/components/ChooseSamurai.vue";
 import KeyFeatures from "@/components/KeyFeatures.vue";
 import News from "@/components/News.vue";
 import CTApatreon from "@/components/CTApatreon.vue";
+import WorldOfEdo from "../components/WorldOfEdo.vue";
 export default {
   components: {
     Navbar,
@@ -80,6 +79,7 @@ export default {
     ChooseSamurai,
     CTApatreon,
     KeyFeatures,
+    WorldOfEdo,
   },
   data() {
     return {
@@ -162,21 +162,7 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
     }
   }
 }
-.subnav {
-  min-height: 80px;
-  background: #ac000e;
-  color: white;
-  font-family: "Space Grotesk", sans-serif;
-  letter-spacing: 0.02rem;
-  strong {
-    color: white;
-  }
-  a {
-    font-weight: bold;
-    color: white;
-  }
-  padding-bottom: 10px;
-}
+
 #intro {
   background: url("../assets/img/dust.png"),
     linear-gradient(150deg, #030101, #1a1a1b);
@@ -191,24 +177,6 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
     text-align: left;
     font-weight: 300;
   }
-  .sz-flower {
-    margin-top: 7rem;
-    margin-bottom: 1rem;
-    svg {
-      height: 100px;
-    }
-  }
-  .intro-container {
-    .intro-item-title {
-      margin-top: 2rem;
-      font-size: 3rem;
-      color: #ac000e;
-    }
-    padding: 1rem;
-    color: white;
-    font-size: 1.35rem;
-    font-weight: 300;
-  }
 }
 #trailer {
   background: linear-gradient(rgba(3, 1, 1, 0.5) 0%, rgba(3, 1, 1, 0.5) 0%),
@@ -219,33 +187,12 @@ $text-shadow: 0px 2px 4px rgba(2, 1, 24, 0.466);
   background-repeat: no-repeat;
   padding-top: 15rem;
   padding-bottom: 15rem;
-  .title {
-    font-size: 3rem;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 600;
-    color: #ac000e;
-    text-transform: none;
-  }
   img {
     cursor: pointer;
     border-radius: 10px;
   }
 }
-.section-title-wrapper {
-  hr {
-    margin-top: 2rem;
-  }
-  .section-title {
-    text-transform: uppercase;
-    color: white;
-    font-size: 2.2rem;
-    font-weight: 900 !important;
-  }
-  .section-subtitle {
-    color: white;
-    font-size: 1.5rem;
-  }
-}
+
 iframe {
   margin: 0 !important;
   height: 100% !important;
@@ -253,23 +200,6 @@ iframe {
 hr {
   background: #ac000e;
 }
-// .rotate {
-//   animation: rotation 120s infinite linear;
-// }
-// @keyframes rotation {
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(359deg);
-//   }
-// }
-
-// .is-partreon {
-//   svg {
-//     margin-right: 10px;
-//   }
-// }
 
 @media only screen and (max-width: 1330px) {
   .hero {
@@ -288,23 +218,6 @@ hr {
     background-size: cover !important;
     background-position: top;
     line-break: initial;
-  }
-  .trailer-callout {
-    display: none;
-  }
-  .body {
-    padding-left: 3rem;
-    .titles {
-      padding-right: 3rem !important;
-      text-align: center !important;
-    }
-    .button {
-      margin-top: 2rem;
-    }
-  }
-  .subnav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
   }
   #intro,
   #trailer {

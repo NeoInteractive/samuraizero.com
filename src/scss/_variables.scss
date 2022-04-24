@@ -20,10 +20,7 @@ $shadow-small: 0px 2px 2px rgba(77, 69, 226, 0.25);
 $shadow-medium: 0px 4px 4px rgba(2, 1, 24, 0.25);
 $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
 
-button {
-  font-family: hypatia-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
+
 a {
   color: #ac000e;
 }
@@ -37,7 +34,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: hypatia-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
   font-weight: 700;
   font-style: normal;
@@ -52,6 +49,8 @@ h5 {
 }
 .zero-btn {
   background: rgba(255, 44, 62, 0.4);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
   border: 1px solid #ac000e;
   color: ghostwhite;
   border-radius: 0px;

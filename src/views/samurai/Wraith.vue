@@ -41,36 +41,49 @@
                 Maybe a leopard can't change its spots...but it can hide them.
               </q>
               <h3>HISTORY</h3>
-              <p class="body">
-                Wraith is an ex-mercenary forged by both ancestral teachings
-                passed down to him and through withstanding a lifetime of
-                tragedy. The final survivor of the once proud Simi Clan, Dyrus
-                watched the mountains he called home burn to the ground by
-                Meridian forces when he was only a boy. However at Chausiku's
-                insistence, the orphaned boy decided to forsake revenge and
-                focus only on surviving so that he might carry the Simi legacy.
-                In time, Dyrus found a new family in the Silver Cloaks, a
-                mercenary group he co-founded with his friend Ren. The group
-                would undertake several different kinds of jobs, from
-                reconnaissance to guard duty, and even wetwork operations for
-                those that truly deserved it. Yet even this family would be
-                ripped away from him, as they were slain by the Shinigami during
-                the New Dawn, including the shattering of his Chausiku.
+              <section>
+                <p class="body">
+                  Wraith is an ex-mercenary forged by both ancestral teachings
+                  passed down to him and through withstanding a lifetime of
+                  tragedy. The final survivor of the once proud Simi Clan, Dyrus
+                  watched the mountains he called home burn to the ground by
+                  Meridian forces when he was only a boy. However at Chausiku's
+                  insistence, the orphaned boy decided to forsake revenge and
+                  focus only on surviving so that he might carry the Simi
+                  legacy.
+                </p>
+                <details>
+                  <summary style="color: #ff2c3c">Read More</summary>
+                  <p class="body">
+                    In time, Dyrus found a new family in the Silver Cloaks, a
+                    mercenary group he co-founded with his friend Ren. The group
+                    would undertake several different kinds of jobs, from
+                    reconnaissance to guard duty, and even wetwork operations
+                    for those that truly deserved it. Yet even this family would
+                    be ripped away from him, as they were slain by the Shinigami
+                    during the New Dawn, including the shattering of his own
+                    Spirit Partner, Chausiku.
+                  </p>
+                  <p class="body">
+                    Now without a family once again, and this time without even
+                    a Spirit to guide him, Dyrus spends all his efforts
+                    gathering information for an unknown purpose. He denies that
+                    what he seeks is revenge, only commenting that "it's not
+                    what they would want." The true goal of this samurai remains
+                    in the shadows.
+                  </p>
+                  <p class="body">
+                    Specializing in speed and precision, he prefers to handle
+                    tasks as quickly an efficiently as possible. While he has no
+                    qualms with killing, he detests needless violence, so when
+                    he goes for the throat, you can be assured that there was no
+                    other choice. In battle, Wraith is most lethal at
+                    identifying and isolating high-priority targets and ending
+                    them quickly, before disappearing just as fast.
+                  </p>
+                </details>
                 <br /><br />
-                Now without a family once again, and this time without even a
-                Spirit to guide him, Dyrus spends all his efforts gathering
-                information for an unknown purpose. He denies that what he seeks
-                is revenge, only commenting that "it's not what they would
-                want." The true goal of this samurai remains in the shadows.
-                <br /><br />
-                Specializing in speed and precision, he prefers to handle tasks
-                as quickly an efficiently as possible. While he has no qualms
-                with killing, he detests needless violence, so when he goes for
-                the throat, you can be assured that there was no other choice.
-                In battle, Wraith is most lethal at identifying and isolating
-                high-priority targets and ending them quickly, before
-                disappearing just as fast.
-              </p>
+              </section>
             </div>
             <div class="column is-12 has-text-centered">
               <br /><br /><br /><br />

@@ -41,30 +41,43 @@
                 Even in the darkness of night, the moon is always shining.
               </q>
               <h3>HISTORY</h3>
-              <p class="body">
-                Luna is the inexperienced but earnest head of the illustrious
-                Alcmene Clan. Despite the troubles that plague her, she is a
-                firm believer that things will improve so long as she keeps hope
-                alive. To her, if a leader can assure their people with a smile,
-                then they can inspire them to be better. <br /><br />
-                Born the second child of the former Alcmene Head, Luna was never
-                expected to lead, yet she did not harbor resentment of this
-                fact. On the contrary, she was excited to have her older brother
-                lead their clan into a bright future. But on the night he was
-                supposed to rise to the occasion, disaster struck, and Luna's
-                brother was possessed by a Demon, maiming his sister before
-                escaping into the night. <br /><br />
-                Now suddenly thrusting into a role she never thought she would
-                have, Luna does her best to lead her clan into the bright future
-                she idealizes. However she never loses hope that someday she'll
-                find and save her beloved brother from his terrible fate, and
-                she can give him back the leadership she is forced to contend
-                with. <br /><br />
-                During a conflict, Luna functions as a close to mid-range
-                support, providing healing to her teammates while also dealing
-                respectable damage. In the right hands, Luna can turn the tide
-                of a fight, grasping a sudden victory from the jowls of defeat.
-              </p>
+              <div>
+                <p class="body">
+                  Luna is the inexperienced but earnest head of the illustrious
+                  Alcmene Clan. Despite the troubles that plague her, she is a
+                  firm believer that things will improve so long as she keeps
+                  hope alive. To her, if a leader can assure their people with a
+                  smile, then they can inspire them to be better.
+                </p>
+                <details>
+                  <summary style="color: #ff2c3c">Read More</summary>
+                  <p class="body">
+                    Born the second child of the former Alcmene Head, Luna was
+                    never expected to lead, yet she did not harbor resentment of
+                    this fact. On the contrary, she was excited to have her
+                    older brother lead their clan into a bright future. But on
+                    the night he was supposed to rise to the occasion, disaster
+                    struck, and Luna's brother was possessed by a Demon, maiming
+                    his sister before escaping into the night.
+                  </p>
+                  <p class="body">
+                    Now suddenly thrusted into a role she never thought she
+                    would have, Luna does her best to lead her clan into the
+                    bright future she idealizes. However she never loses hope
+                    that someday she'll find and save her beloved brother from
+                    his terrible fate, and she can give him back the leadership
+                    she is forced to contend with.
+                  </p>
+                  <p class="body">
+                    During a conflict, Luna functions as a close to mid-range
+                    support, providing healing to her teammates while also
+                    dealing respectable damage. In the right hands, Luna can
+                    turn the tide of a fight, grasping a sudden victory from the
+                    jowls of defeat.
+                  </p>
+                </details>
+                <br /><br />
+              </div>
             </div>
             <div class="column is-12 has-text-centered">
               <br /><br /><br /><br />
@@ -185,7 +198,7 @@ export default {
     font-size: 1.3rem;
     color: #faf7eb;
     line-height: 2.5rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
     font-weight: 400;
     strong {
       color: #ff2c3c;

@@ -40,38 +40,51 @@
                 My work will be done when the fox finally sleeps.
               </q>
               <h3>HISTORY</h3>
-              <p class="body">
-                Ryder is an automaton largely theorized to be affiliated with
-                the Kashikoi Clan in some shape or form. Little is known about
-                Ryder at the moment. Where he comes from or what he wants are a
-                mystery to all but a select few. While he moves with the
-                fluidity and natural motion of a human, he is most assuredly a
-                machine. From what can be gleamed, Ryder appears to take great
-                interest in strong samurai, but does not seem to seek their
-                elimination. Rather, he only wishes to test his skills against
-                them.
+              <section>
+                <p class="body">
+                  Ryder is an automaton largely theorized to be affiliated with
+                  the Kashikoi Clan in some shape or form. Little is known about
+                  Ryder at the moment. Where he comes from or what he wants are
+                  a mystery to all but a select few. While he moves with the
+                  fluidity and natural motion of a human, he is most assuredly a
+                  machine.
+                </p>
+                <details>
+                  <summary style="color: #ff2c3c">Read More</summary>
+                  <p class="body">
+                    From what can be gleamed, Ryder appears to take great
+                    interest in strong samurai, but does not seem to seek their
+                    elimination. Rather, he only wishes to test his skills
+                    against them.
+                  </p>
+                  <p class="body">
+                    Most notably, Ryder seems particularly fixated with the
+                    equally mysterious samurai Wraith, and pursues him the most
+                    doggedly. This apparently rivalry is largely one-sided, as
+                    Wraith does not share an equal fascination with the machina
+                    beyond the usual questions everyone has about him.
+                  </p>
+                  <p class="body">
+                    The technology that composes Ryder is the most advanced in
+                    all of Edo, but snippets of things he says somewhat imply
+                    that he is not altogether sentient, and that there may be
+                    someone puppeting the machine. If there are people privy to
+                    this knowledge, they do not share.
+                  </p>
+                  <p class="body">
+                    With lightning-fast movements and deft strikes with his
+                    blade, he is a peerless duelist. While he might lack in
+                    crowd control to help set up combos for his teammates, he
+                    more than makes up for it in raw damage, allowing him to
+                    have some of the highest damage-dealing potential of any
+                    samurai. While in a fight, Ryder excels at eliminating
+                    threats before they become too much of an issue, as his
+                    relative fragility causes him to struggle in drawn-out
+                    fights.
+                  </p>
+                </details>
                 <br /><br />
-                Most notably, Ryder seems particularly fixated with the equally
-                mysterious samurai Wraith, and pursues him the most doggedly.
-                This apparently rivalry is largely one-sided, as Wraith does not
-                share an equal fascination with the machina beyond the usual
-                questions everyone has about him.
-                <br /><br />
-                The technology that composes Ryder is the most advanced in all
-                of Edo, but snippets of things he says somewhat imply that he is
-                not altogether sentient, and that there may be someone puppeting
-                the machine. If there are people privy to this knowledge, they
-                do not share.
-                <br /><br />
-                With lightning-fast movements and deft strikes with his blade,
-                he is a peerless duelist. While he might lack in crowd control
-                to help set up combos for his teammates, he more than makes up
-                for it in raw damage, allowing him to have some of the highest
-                damage-dealing potential of any samurai. While in a fight, Ryder
-                excels at eliminating threats before they become too much of an
-                issue, as his relative fragility causes him to struggle in
-                drawn-out fights.
-              </p>
+              </section>
             </div>
             <div class="column is-12 has-text-centered">
               <br /><br /><br /><br />
@@ -205,7 +218,7 @@ export default {
     font-size: 1.3rem;
     color: #faf7eb;
     line-height: 2.5rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
     font-weight: 400;
     strong {
       color: #ff2c3c;

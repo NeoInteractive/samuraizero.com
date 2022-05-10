@@ -36,6 +36,9 @@ aside.unsupported {
   height: 100vh !important;
   background: black;
 }
+summary {
+  cursor: pointer;
+}
 .button.zero-btn {
   font-family: "Space Grotesk", sans-serif;
   background: rgba(255, 44, 62, 0.4);

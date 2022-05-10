@@ -17,7 +17,7 @@
           <div class="columns is-multiline">
             <div class="column is-6" style="text-align: right;">
               <img
-                src="../../assets/img/samurai/samurai_2_ryder.png"
+                src="../../assets/img/samurai/samurai_2_ryder_new.png"
                 width="400px"
                 alt
               />

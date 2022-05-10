@@ -17,7 +17,7 @@
           <div class="columns is-multiline">
             <div class="column is-6" style="text-align: right;">
               <img
-                src="../../assets/img/samurai/samurai_3_luna.png"
+                src="../../assets/img/samurai/samurai_3_luna_new.png"
                 width="400px"
                 alt
               />

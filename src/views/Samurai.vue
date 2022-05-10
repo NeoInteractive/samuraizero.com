@@ -216,14 +216,14 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
         background-position: top;
       }
       .ryder {
-        background: url("../assets/img/samurai/samurai_2_ryder.png"),
+        background: url("../assets/img/samurai/samurai_2_ryder_new.png"),
           linear-gradient(rgba(47, 97, 117, 0.459), rgb(47, 83, 117));
         height: 600px;
         background-size: cover;
         background-position: top;
       }
       .luna {
-        background: url("../assets/img/samurai/samurai_3_luna.png"),
+        background: url("../assets/img/samurai/samurai_3_luna_new.png"),
           linear-gradient(rgba(105, 47, 117, 0.459), rgb(95, 47, 117));
         height: 600px;
         background-size: cover;
@@ -258,7 +258,7 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
     .ryder {
       border: 1px solid rgba(233, 226, 202, 0.4);
       height: 600px;
-      background: url("../assets/img/samurai/samurai_2_ryder.png");
+      background: url("../assets/img/samurai/samurai_2_ryder_new.png");
       background-size: cover;
       background-position: top;
       border-top-left-radius: 25px;
@@ -267,7 +267,7 @@ $shadow-large: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
     .luna {
       border: 1px solid rgba(233, 226, 202, 0.4);
       height: 600px;
-      background: url("../assets/img/samurai/samurai_3_luna.png");
+      background: url("../assets/img/samurai/samurai_3_luna_new.png");
       background-size: cover;
       background-position: top;
       border-top-left-radius: 25px;

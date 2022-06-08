@@ -24,7 +24,10 @@
           <h1 class="text-3xl text-[#f7f0d9] pb-8 font-bold">
             Advanced Movement
           </h1>
-          <img src="@/assets/placeholder-img.jpg" class="rounded-md mb-4" />
+          <img
+            src="@/assets/advanced-movement.jpg"
+            class="rounded-md mb-4 aspect-video"
+          />
           <p class="text-[#f7f0d9]/80 text-xl text-shadow">
             Smooth and responsive means of traversal. Double jump, wall running,
             and dashes are all at the player's disposal to traverse dynamic maps
@@ -33,7 +36,7 @@
         </div>
         <div class="text-white text-xl xl:w-1/3 md:w-1/2 w-full">
           <h1 class="text-3xl text-[#f7f0d9] pb-8 font-bold">Dynamic Combat</h1>
-          <img src="@/assets/placeholder-img.jpg" class="rounded-md mb-4" />
+          <img src="@/assets/dynamic-combat.jpg" class="rounded-md mb-4" />
           <p class="text-[#f7f0d9]/80 text-xl text-shadow">
             Discover unique forms of fighting that influence the balance of
             power. Complete combos with combat arts, use special abilities with
@@ -45,7 +48,7 @@
           <h1 class="text-3xl text-[#f7f0d9] pb-8 font-bold">
             Gameplay Tactics
           </h1>
-          <img src="@/assets/placeholder-img.jpg" class="rounded-md mb-4" />
+          <img src="@/assets/tactics.jpg" class="rounded-md mb-4" />
           <p class="text-[#f7f0d9]/80 text-xl text-shadow">
             Customize your character's special abilities and stats to create
             your own custom play style. With countless combinations, you can

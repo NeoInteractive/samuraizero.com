@@ -94,7 +94,7 @@ onMounted(() => {
                 {{ post.title }}
               </a>
             </p>
-            <SZButton type="external" :to="post.url" size="xs">
+            <SZButton type="external" :href="post.url" size="xs">
               Read More
             </SZButton>
           </div>

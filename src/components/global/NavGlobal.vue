@@ -46,12 +46,18 @@ const navItems = [
     class: "nav-link",
     external: true,
   },
+  {
+    name: "Discord",
+    url: "https://szero.dev/discord",
+    class: "nav-link",
+    external: true,
+  },
 ];
 let mobileNavOpen = ref(false);
 </script>
 <template>
   <nav
-    class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700 bg-white"
+    class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-8 text-lg text-gray-700 bg-white uppercase font-bold tracking-wider"
   >
     <div>
       <router-link to="/">
@@ -115,7 +121,7 @@ let mobileNavOpen = ref(false);
 
 <style lang="scss" scoped>
 nav {
-  @apply fixed w-full top-0 px-1 sm:px-3 md:py-6 py-3 z-[99] transition-all duration-300 bg-black/70 backdrop-blur-md;
+  @apply fixed w-full top-0 px-6 sm:px-3 md:py-6 py-3 z-[99] transition-all duration-300 bg-black/70 backdrop-blur-md;
 }
 .nav-container {
   @apply flex md:flex-nowrap flex-wrap justify-between items-center mx-auto md:px-0 px-4 container;

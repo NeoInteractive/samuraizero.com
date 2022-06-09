@@ -41,8 +41,8 @@ const navItems = [
     external: true,
   },
   {
-    name: "Merch",
-    url: "https://merch.samuraizero.com",
+    name: "Patreon",
+    url: "https://patreon.com/neointeractive",
     class: "nav-link",
     external: true,
   },

@@ -21,6 +21,13 @@
         class="flex flex-row gap-4 text-white uppercase font-black tracking-wider xl:mt-0 my-6"
       >
         <a
+          href="https://patreon.com/neointeractive"
+          target="_blank"
+          title="Patreon"
+        >
+          Patreon
+        </a>
+        <a
           href="https://neointeractive.dev/team#meet-the-team"
           target="_blank"
           title="Latest News"

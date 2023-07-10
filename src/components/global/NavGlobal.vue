@@ -41,12 +41,6 @@ const navItems = [
     external: true,
   },
   {
-    name: "Patreon",
-    url: "https://patreon.com/neointeractive",
-    class: "nav-link",
-    external: true,
-  },
-  {
     name: "Discord",
     url: "https://szero.dev/discord",
     class: "nav-link",
@@ -56,72 +50,86 @@ const navItems = [
 let mobileNavOpen = ref(false);
 </script>
 <template>
-  <nav
-    class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-8 text-lg text-gray-700 bg-white uppercase font-bold tracking-wider"
-  >
-    <div>
-      <router-link to="/">
-        <img
-          src="@/assets/branding/sz-logo-main-sm.png"
-          class="nav-logo"
-          alt="Samurai Zero Logo"
-        />
-      </router-link>
-    </div>
-
-    <svg
-      @click="mobileNavOpen = !mobileNavOpen"
-      xmlns="http://www.w3.org/2000/svg"
-      id="menu-button"
-      class="h-6 w-6 cursor-pointer md:hidden block text-white"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
+  <section class="fixed w-full top-0 z-[99]">
+    <section
+      class="bg-[#ff2c3c] text-white flex p-4 items-center justify-center font-black"
     >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M4 6h16M4 12h16M4 18h16"
-      />
-    </svg>
-
-    <div
-      class="w-full md:flex md:items-center md:w-auto"
-      :class="mobileNavOpen ? 'py-8 ' : 'hidden'"
-      id="menu"
+      With a heavy heart, development of Samurai Zero is currently on hold. We
+      hope to have more news to share soon while we work out additional funding.
+    </section>
+    <nav
+      class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-8 text-lg text-gray-700 bg-white uppercase font-bold tracking-wider"
     >
-      <ul
-        class="pt-4 text-white md:flex md:justify-between md:pt-0"
-        :class="mobileNavOpen ? 'text-center text-2xl columns-2' : 'text-base'"
-      >
-        <router-link
-          v-for="item in navItems"
-          :key="item.name"
-          :class="item.class"
-          :to="!item.external ? item.url : ''"
-          :href="item.external ? item.url : ''"
-          :target="item.external ? '_blank' : ''"
-          class="text-shadow"
-        >
-          {{ item.name }}
+      <div>
+        <router-link to="/">
+          <img
+            src="@/assets/branding/sz-logo-main-sm.png"
+            class="nav-logo"
+            alt="Samurai Zero Logo"
+          />
         </router-link>
-      </ul>
-      <div
-        class="flex justify-center w-full xl:ml-4"
-        :class="mobileNavOpen ? 'pt-8' : 'text-base'"
-      >
-        <SZButton href="https://szero.dev/steam" type="external" theme="steam">
-          <i class="fa-brands fa-steam mr-4" /> Wishlist on Steam
-        </SZButton>
       </div>
-    </div>
-  </nav>
+
+      <svg
+        @click="mobileNavOpen = !mobileNavOpen"
+        xmlns="http://www.w3.org/2000/svg"
+        id="menu-button"
+        class="h-6 w-6 cursor-pointer md:hidden block text-white"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"
+        />
+      </svg>
+
+      <div
+        class="w-full md:flex md:items-center md:w-auto"
+        :class="mobileNavOpen ? 'py-8 ' : 'hidden'"
+        id="menu"
+      >
+        <ul
+          class="pt-4 text-white md:flex md:justify-between md:pt-0"
+          :class="
+            mobileNavOpen ? 'text-center text-2xl columns-2' : 'text-base'
+          "
+        >
+          <router-link
+            v-for="item in navItems"
+            :key="item.name"
+            :class="item.class"
+            :to="!item.external ? item.url : ''"
+            :href="item.external ? item.url : ''"
+            :target="item.external ? '_blank' : ''"
+            class="text-shadow"
+          >
+            {{ item.name }}
+          </router-link>
+        </ul>
+        <div
+          class="flex justify-center w-full xl:ml-4"
+          :class="mobileNavOpen ? 'pt-8' : 'text-base'"
+        >
+          <SZButton
+            href="https://szero.dev/steam"
+            type="external"
+            theme="steam"
+          >
+            <i class="fa-brands fa-steam mr-4" /> Wishlist on Steam
+          </SZButton>
+        </div>
+      </div>
+    </nav>
+  </section>
 </template>
 
 <style lang="scss" scoped>
 nav {
-  @apply fixed w-full top-0 px-6 sm:px-3 md:py-6 py-3 z-[99] transition-all duration-300 bg-black/70 backdrop-blur-md;
+  @apply px-6 sm:px-3 md:py-6 py-3 z-[99] transition-all duration-300 bg-black/70 backdrop-blur-md;
 }
 .nav-container {
   @apply flex md:flex-nowrap flex-wrap justify-between items-center mx-auto md:px-0 px-4 container;
